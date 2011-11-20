@@ -1,0 +1,2 @@
+
+require('./shared').test('jade');
