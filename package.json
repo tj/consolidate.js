@@ -11,6 +11,7 @@
     , "jade": "*"
     , "ejs": "*"
     , "swig": "*"
+    , "liquor": "*"
   }
   , "main": "index"
   , "engines": { "node": "0.6.x" }
