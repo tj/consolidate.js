@@ -9,6 +9,7 @@
       "mocha": "*"
     , "should": "*"
     , "jade": "*"
+    , "ejs": "*"
   }
   , "main": "index"
   , "engines": { "node": "0.6.x" }
