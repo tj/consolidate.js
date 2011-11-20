@@ -1,0 +1,14 @@
+{
+    "name": "consolidate"
+  , "version": "0.0.1"
+  , "description": "Template engine consolidation library"
+  , "keywords": ["template", "engine", "view"]
+  , "author": "TJ Holowaychuk <tj@vision-media.ca>"
+  , "dependencies": {}
+  , "devDependencies": {
+      "mocha": "*"
+    , "should": "*"
+  }
+  , "main": "index"
+  , "engines": { "node": "0.6.x" }
+}
