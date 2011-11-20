@@ -8,7 +8,7 @@ exports.test = function(name) {
     it('should support locals', function(done){
       var path = 'test/fixtures/' + name + '/user.' + name;
       var locals = { user: user };
-      cons.render[name](path, locals, function(err, html){
+      cons[name](path, locals, function(err, html){
         if (err) return done(err);
         html.should.equal('<p>Tobi</p>');
         done();

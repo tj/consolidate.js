@@ -1,7 +1,7 @@
 
-# consolidate
+# Consolidate.js
 
-  Template engine consolidation library
+  Template engine consolidation library.
 
 ## License 
 
