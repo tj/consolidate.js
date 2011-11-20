@@ -12,6 +12,7 @@
     , "ejs": "*"
     , "swig": "*"
     , "jazz": "*"
+    , "jqtpl": "*"
     , "liquor": "*"
   }
   , "main": "index"
