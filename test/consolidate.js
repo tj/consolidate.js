@@ -6,3 +6,4 @@ require('./shared').test('jazz');
 require('./shared').test('jqtpl');
 require('./shared').test('liquor');
 require('./shared').test('haml');
+require('./shared').test('eco');

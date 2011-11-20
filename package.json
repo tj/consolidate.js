@@ -10,6 +10,7 @@
     , "should": "*"
     , "jade": "*"
     , "ejs": "*"
+    , "eco": "*"
     , "swig": "*"
     , "jazz": "*"
     , "jqtpl": "*"
