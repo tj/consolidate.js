@@ -11,6 +11,7 @@
     , "jade": "*"
     , "ejs": "*"
     , "swig": "*"
+    , "jazz": "*"
     , "liquor": "*"
   }
   , "main": "index"
