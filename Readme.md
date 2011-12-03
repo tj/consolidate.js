@@ -15,6 +15,16 @@ cons.swig('views/page.html', { user: 'tobi' }, function(err, html){
 });
 ```
 
+  Or without options / local variables:
+
+```js
+var cons = require('consolidate');
+cons.swig('views/page.html', function(err, html){
+  if (err) throw err;
+  console.log(html);
+});
+```
+
   To dynamically pass the engine, simply use the subscript operator and a variable:
 
 ```js
