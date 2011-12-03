@@ -3,6 +3,17 @@
 
   Template engine consolidation library.
 
+## Supported template engines
+
+  - eco
+  - ejs
+  - haml
+  - jade
+  - jazz
+  - jqtpl
+  - liquor
+  - swig
+
 ## License 
 
 (The MIT License)
