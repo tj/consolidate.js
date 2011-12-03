@@ -3,6 +3,30 @@
 
   Template engine consolidation library.
 
+## API
+
+  All templates supported by this library may be rendered using the signature `(path[, locals], callback)` as shown here:
+
+```js
+var cons = require('consolidate');
+cons.swig('views/page.html', { user: 'tobi' }, function(err, html){
+  if (err) throw err;
+  console.log(html);
+});
+```
+
+  To dynamically pass the engine, simply use the subscript operator and a variable:
+
+```js
+var cons = require('consolidate')
+  , name = 'swig';
+
+cons[name]('views/page.html', { user: 'tobi' }, function(err, html){
+  if (err) throw err;
+  console.log(html);
+});
+```
+
 ## Supported template engines
 
   - eco
