@@ -47,6 +47,7 @@ cons[name]('views/page.html', { user: 'tobi' }, function(err, html){
   - jqtpl
   - liquor
   - swig
+  - whiskers
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
