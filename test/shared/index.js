@@ -22,7 +22,29 @@ exports.test = function(name) {
         done();
       });
     })
-    
+
+    it('should not cache by default', function(done){
+      var path = 'test/fixtures/' + name + '/user.' + name;
+      var locals = { user: user };
+      var calls = 0;
+
+      fs.readFile = function(){
+        ++calls;
+        readFile.apply(this, arguments);
+      };
+
+      cons[name](path, locals, function(err, html){
+        if (err) return done(err);
+        html.should.equal('<p>Tobi</p>');
+        cons[name](path, locals, function(err, html){
+          if (err) return done(err);
+          html.should.equal('<p>Tobi</p>');
+          calls.should.equal(2);
+          done();
+        });
+      });
+    })
+
     it('should support caching', function(done){
       var path = 'test/fixtures/' + name + '/user.' + name;
       var locals = { user: user, cache: true };
