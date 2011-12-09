@@ -3,6 +3,24 @@
 
   Template engine consolidation library.
 
+## Installation
+
+    $ npm install consolidate
+
+## Supported template engines
+
+  - eco
+  - ejs
+  - haml
+  - jade
+  - jazz
+  - jqtpl
+  - liquor
+  - swig
+  - whiskers
+
+__NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
+
 ## API
 
   All templates supported by this library may be rendered using the signature `(path[, locals], callback)` as shown here:
@@ -48,20 +66,6 @@ cons.swig('views/page.html', { user: 'tobi' }, function(err, html){
   console.log(html);
 });
 ```
-
-## Supported template engines
-
-  - eco
-  - ejs
-  - haml
-  - jade
-  - jazz
-  - jqtpl
-  - liquor
-  - swig
-  - whiskers
-
-__NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
 ## Running tests
 
