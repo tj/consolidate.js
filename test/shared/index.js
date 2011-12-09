@@ -28,6 +28,11 @@ exports.test = function(name) {
       var locals = { user: user };
       var calls = 0;
 
+      fs.readFileSync = function(){
+        ++calls;
+        return readFileSync.apply(this, arguments);
+      };
+
       fs.readFile = function(){
         ++calls;
         readFile.apply(this, arguments);
