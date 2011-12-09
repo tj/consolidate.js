@@ -47,6 +47,7 @@ cons.swig('views/page.html', { user: 'tobi' }, function(err, html){
   if (err) throw err;
   console.log(html);
 });
+```
 
 ## Supported template engines
 
