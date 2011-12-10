@@ -1,4 +1,3 @@
-
 # Consolidate.js
 
   Template engine consolidation library.
@@ -9,15 +8,15 @@
 
 ## Supported template engines
 
-  - eco
-  - ejs
-  - haml
-  - jade
-  - jazz
-  - jqtpl
-  - liquor
-  - swig
-  - whiskers
+  - [eco](https://github.com/sstephenson/eco)
+  - [ejs](https://github.com/visionmedia/ejs)
+  - [haml](https://github.com/creationix/haml-js) [(website)](http://haml-lang.com/)
+  - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
+  - [jazz](https://github.com/shinetech/jazz)
+  - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
+  - [liquor](https://github.com/chjj/liquor)
+  - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
+  - [whiskers](https://github.com/gsf/whiskers.js/tree/)
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
