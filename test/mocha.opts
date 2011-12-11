@@ -1,3 +1,4 @@
 --growl
 --require should
 --reporter spec
+--ignore-leaks

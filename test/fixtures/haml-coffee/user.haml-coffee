@@ -1,1 +1,1 @@
-%p= user.name
+%p= @user.name
