@@ -17,6 +17,7 @@
     , "liquor": "*"
     , "hamljs": "*"
     , "whiskers": "*"
+    , "haml-coffee": "*"
   }
   , "main": "index"
   , "engines": { "node": "0.6.x" }
