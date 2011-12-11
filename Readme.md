@@ -11,6 +11,7 @@
   - [eco](https://github.com/sstephenson/eco)
   - [ejs](https://github.com/visionmedia/ejs)
   - [haml](https://github.com/visionmedia/haml.js) [(website)](http://haml-lang.com/)
+  - [haml-coffee](https://github.com/9elements/haml-coffee) [(website)](http://haml-lang.com/)
   - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
   - [jazz](https://github.com/shinetech/jazz)
   - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
