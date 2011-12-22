@@ -18,6 +18,7 @@
     , "hamljs": "*"
     , "whiskers": "*"
     , "haml-coffee": "*"
+    , "kernel": "*"
   }
   , "main": "index"
   , "engines": { "node": "0.6.x" }

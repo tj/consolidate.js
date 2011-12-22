@@ -8,4 +8,5 @@ require('./shared').test('liquor');
 require('./shared').test('haml');
 require('./shared').test('eco');
 require('./shared').test('whiskers');
+require('./shared').test('kernel');
 require('./shared').test('haml-coffee');
