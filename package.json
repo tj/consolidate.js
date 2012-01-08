@@ -20,6 +20,7 @@
     , "haml-coffee": "*"
     , "kernel": "*"
     , "hogan.js": "*"
+    , "dust": "*"
   }
   , "main": "index"
   , "engines": { "node": "0.6.x" }
