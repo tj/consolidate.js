@@ -21,6 +21,7 @@
   - [kernel](https://github.com/c9/kernel)
   - [hogan](https://github.com/twitter/hogan.js)
   - [dust](https://github.com/akdubya/dustjs)
+  - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
