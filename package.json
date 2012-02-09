@@ -21,6 +21,7 @@
     , "kernel": "*"
     , "hogan.js": "*"
     , "dust": "*"
+    , "handlebars": "*"
   }
   , "main": "index"
   , "engines": { "node": "0.6.x" }
