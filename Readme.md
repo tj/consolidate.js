@@ -8,20 +8,20 @@
 
 ## Supported template engines
 
+  - [dust](https://github.com/akdubya/dustjs) [(website)](http://akdubya.github.com/dustjs/)
   - [eco](https://github.com/sstephenson/eco)
   - [ejs](https://github.com/visionmedia/ejs)
-  - [haml](https://github.com/visionmedia/haml.js) [(website)](http://haml-lang.com/)
   - [haml-coffee](https://github.com/9elements/haml-coffee) [(website)](http://haml-lang.com/)
+  - [haml](https://github.com/visionmedia/haml.js) [(website)](http://haml-lang.com/)
+  - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
+  - [hogan](https://github.com/twitter/hogan.js) [(website)](http://twitter.github.com/hogan.js/)
   - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
   - [jazz](https://github.com/shinetech/jazz)
   - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
+  - [kernel](https://github.com/c9/kernel) 
   - [liquor](https://github.com/chjj/liquor)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [whiskers](https://github.com/gsf/whiskers.js/tree/)
-  - [kernel](https://github.com/c9/kernel)
-  - [hogan](https://github.com/twitter/hogan.js)
-  - [dust](https://github.com/akdubya/dustjs)
-  - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
