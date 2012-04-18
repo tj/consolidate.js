@@ -1,4 +1,10 @@
 
+0.3.0 / 2012-04-18 
+==================
+
+  * Added partials loading for whiskers [gsf]
+  * Added dustjs-linkedin support
+
 0.2.0 / 2012-04-04 
 ==================
 
