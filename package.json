@@ -21,6 +21,7 @@
     , "kernel": "*"
     , "hogan.js": "*"
     , "dust": "*"
+    , "dustjs-linkedin": "*"
     , "handlebars": "*"
   }
   , "main": "index"
