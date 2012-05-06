@@ -122,9 +122,11 @@ console.log('Express server listening on port 3000');
 Some template engines have little quirks that don't quite work with the
 express framework as it is.
 
-**Partials in hogan / whiskers:** Globally register a partial using the
-`app.settings('view partials')` setting. An individual call to a template
-can also have its own specific partials.
+###Partials in hogan / whiskers:
+
+Globally register a partial using the `app.settings('view partials')`
+setting. An individual call to a template can also have its own
+specific partials.
 
 ```js
 // in app.js
@@ -136,7 +138,7 @@ app.settings('view partials') = {
 // in routes.index
 exports.index = function(req, res){
   /* This has access to 'base' and 'footer' partials */
-  res.render('index, { title: 'Express' });
+  res.render('index', { title: 'Express' });
 };
 exports.foo = function(req, res){
   /* This also has access to 'header' partial */
