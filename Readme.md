@@ -109,14 +109,50 @@ console.log('Express server listening on port 3000');
 ## Running tests
 
   Install dev deps:
-  
+
     $ npm install -d
 
   Run the tests:
 
     $ make test
 
-## License 
+## Template engine errata
+
+Some template engines have little quirks that don't quite work with the
+express framework as it is.
+
+###Partials in hogan / whiskers:
+
+Globally register a partial using the `app.settings('view partials')`
+setting. An individual call to a template can also have its own
+specific partials.
+
+```js
+// in app.js
+app.settings('view partials') = {
+    'base': '_base.mustache'
+  , 'footer': '_footer.mustache'
+};
+
+// in routes.index
+exports.index = function(req, res){
+  /* This has access to 'base' and 'footer' partials */
+  res.render('index', { title: 'Express' });
+};
+exports.foo = function(req, res){
+  /* This also has access to 'header' partial */
+  res.render('foo', { partials: { 'header': '_header.mustache' } });
+};
+exports.bar = function(req, res){
+  /* This overrides the footer partial */
+  res.render('bar', { partials: { 'footer': '_footer2.mustache' } });
+};
+```
+
+
+
+
+## License
 
 (The MIT License)
 
