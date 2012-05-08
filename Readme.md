@@ -18,7 +18,6 @@
   - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
   - [jazz](https://github.com/shinetech/jazz)
   - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
-  - [kernel](https://github.com/c9/kernel) 
   - [liquor](https://github.com/chjj/liquor)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [whiskers](https://github.com/gsf/whiskers.js/tree/)
