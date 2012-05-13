@@ -20,6 +20,7 @@
   - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
   - [liquor](https://github.com/chjj/liquor)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
+  - [underscore](https://github.com/documentcloud/underscore) [(website)](http://documentcloud.github.com/underscore/)
   - [whiskers](https://github.com/gsf/whiskers.js/tree/)
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
