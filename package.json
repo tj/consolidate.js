@@ -24,7 +24,8 @@
     "hogan.js": "2.0.0",
     "dust": "0.3.0",
     "dustjs-linkedin": "0.4.0",
-    "handlebars": "1.0.5beta"
+    "handlebars": "1.0.5beta",
+    "underscore": "1.3.3"
   },
   "main": "index",
   "engines": {

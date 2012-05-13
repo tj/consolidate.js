@@ -12,3 +12,4 @@ require('./shared').test('haml-coffee');
 require('./shared').test('hogan');
 require('./shared').test('dust');
 require('./shared').test('handlebars');
+require('./shared').test('underscore');
