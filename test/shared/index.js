@@ -35,7 +35,7 @@ exports.test = function(name) {
 
       fs.readFile = function(){
         ++calls;
-        readFile.apply(this, arguments);
+        return readFile.apply(this, arguments);
       };
 
       cons[name](path, locals, function(err, html){
@@ -57,6 +57,10 @@ exports.test = function(name) {
       cons[name](path, locals, function(err, html){
         if (err) return done(err);
 
+        fs.readFileSync = function(path){
+          done(new Error('fs.readFileSync() called with ' + path));
+        }
+
         fs.readFile = function(path){
           done(new Error('fs.readFile() called with ' + path));
         };
@@ -70,5 +74,10 @@ exports.test = function(name) {
       });
     })
 
+    //Engine specific tests
+    try{
+      require('../engine/' + name);
+    }
+    catch(err){};
   })
 };
