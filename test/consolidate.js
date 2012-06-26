@@ -13,3 +13,4 @@ require('./shared').test('hogan');
 require('./shared').test('dust');
 require('./shared').test('handlebars');
 require('./shared').test('underscore');
+require('./shared').test('qejs');
