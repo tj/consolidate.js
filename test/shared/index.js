@@ -11,7 +11,7 @@ exports.test = function(name) {
     afterEach(function(){
       fs.readFile = readFile;
       fs.readFileSync = readFileSync;
-    })
+    });
 
     it('should support locals', function(done){
       var path = 'test/fixtures/' + name + '/user.' + name;
@@ -21,7 +21,7 @@ exports.test = function(name) {
         html.should.equal('<p>Tobi</p>');
         done();
       });
-    })
+    });
 
     it('should not cache by default', function(done){
       var path = 'test/fixtures/' + name + '/user.' + name;
@@ -48,7 +48,7 @@ exports.test = function(name) {
           done();
         });
       });
-    })
+    });
 
     it('should support caching', function(done){
       var path = 'test/fixtures/' + name + '/user.' + name;
@@ -68,7 +68,7 @@ exports.test = function(name) {
           done();
         });
       });
-    })
+    });
 
-  })
+  });
 };

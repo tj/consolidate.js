@@ -22,6 +22,7 @@
   - [QEJS](https://github.com/jepso/QEJS)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [underscore](https://github.com/documentcloud/underscore) [(website)](http://documentcloud.github.com/underscore/)
+  - [walrus](https://github.com/jeremyruppel/walrus) [(website)](http://documentup.com/jeremyruppel/walrus/)
   - [whiskers](https://github.com/gsf/whiskers.js/tree/)
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
