@@ -22,6 +22,7 @@
   - [QEJS](https://github.com/jepso/QEJS)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [underscore](https://github.com/documentcloud/underscore) [(website)](http://documentcloud.github.com/underscore/)
+  - [walrus](https://github.com/jeremyruppel/walrus) [(website)](http://documentup.com/jeremyruppel/walrus/)
   - [whiskers](https://github.com/gsf/whiskers.js/tree/)
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
@@ -29,6 +30,8 @@ __NOTE__: you must still install the engines you wish to use, add them to your p
 ## API
 
   All templates supported by this library may be rendered using the signature `(path[, locals], callback)` as shown below, which happens to be the signature that Express 3.x supports so any of these engines may be used within Express.
+
+__NOTE__: All this example code uses cons.swig for the swig template engine. Replace swig with whatever templating you are using. For exmaple, use cons.hogan for hogan.js, cons.jade for jade, etc. `console.log(cons)` for the full list of identifiers.
 
 ```js
 var cons = require('consolidate');
