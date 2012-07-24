@@ -29,5 +29,8 @@
     "qejs": "0.0.1",
     "walrus": "0.9.0"
   },
-  "main": "index"
+  "main": "index",
+  "scripts": {
+    "test": "mocha"
+  }
 }
