@@ -27,7 +27,8 @@
     "handlebars": "1.0.5beta",
     "underscore": "1.3.3",
     "qejs": "0.0.1",
-    "walrus": "0.9.0"
+    "walrus": "0.9.0",
+    "mustache": "0.4.0"
   },
   "main": "index"
 }
