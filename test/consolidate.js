@@ -15,3 +15,4 @@ require('./shared').test('handlebars');
 require('./shared').test('underscore');
 require('./shared').test('qejs');
 require('./shared').test('walrus');
+require('./shared').test('mustache');

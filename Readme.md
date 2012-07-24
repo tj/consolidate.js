@@ -19,6 +19,7 @@
   - [jazz](https://github.com/shinetech/jazz)
   - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
   - [liquor](https://github.com/chjj/liquor)
+  - [mustache](https://github.com/janl/mustache.js)
   - [QEJS](https://github.com/jepso/QEJS)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [underscore](https://github.com/documentcloud/underscore) [(website)](http://documentcloud.github.com/underscore/)
