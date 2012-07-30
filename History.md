@@ -1,4 +1,11 @@
 
+0.4.0 / 2012-07-30 
+==================
+
+  * add doT support [sannis]
+  * add mustache support [ForbesLindesay]
+  * add walrus support [kagd]
+
 0.3.1 / 2012-06-28 
 ==================
 
