@@ -20,7 +20,7 @@
     "liquor": "0.0.4",
     "hamljs": "0.6.1",
     "whiskers": "0.2.2",
-    "haml-coffee": "0.6.3",
+    "haml-coffee": "1.4.0",
     "hogan.js": "2.0.0",
     "dust": "0.3.0",
     "dustjs-linkedin": "0.4.0",
