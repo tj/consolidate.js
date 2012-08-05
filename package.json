@@ -1,6 +1,6 @@
 {
   "name": "consolidate",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Template engine consolidation library",
   "keywords": [
     "template",
@@ -29,7 +29,8 @@
     "qejs": "0.0.1",
     "walrus": "0.9.0",
     "mustache": "0.4.0",
-    "dot": "0.2.6"
+    "dot": "0.2.6",
+    "just": "0.1.8"
   },
   "main": "index",
   "scripts": {
