@@ -17,3 +17,4 @@ require('./shared').test('qejs');
 require('./shared').test('walrus');
 require('./shared').test('mustache');
 require('./shared').test('dot');
+require('./shared').test('just');
