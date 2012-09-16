@@ -31,7 +31,7 @@
     "mustache": "0.4.0",
     "dot": "0.2.6",
     "just": "0.1.8",
-    "ect": "0.2.6"
+    "ect": "0.2.7"
   },
   "main": "index",
   "scripts": {
