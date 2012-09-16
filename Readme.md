@@ -10,6 +10,7 @@
 
   - [dust](https://github.com/akdubya/dustjs) [(website)](http://akdubya.github.com/dustjs/)
   - [eco](https://github.com/sstephenson/eco)
+  - [ect](https://github.com/baryshev/ect) [(website)](http://ectjs.com/)
   - [ejs](https://github.com/visionmedia/ejs)
   - [haml](https://github.com/visionmedia/haml.js) [(website)](http://haml-lang.com/)
   - [haml-coffee](https://github.com/9elements/haml-coffee) [(website)](http://haml-lang.com/)
