@@ -18,3 +18,4 @@ require('./shared').test('walrus');
 require('./shared').test('mustache');
 require('./shared').test('dot');
 require('./shared').test('just');
+require('./shared').test('ect');
