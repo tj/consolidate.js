@@ -1,0 +1,2 @@
+{>_partial/}
+<p>{user.name}</p>
