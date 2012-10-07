@@ -1,0 +1,2 @@
+{>child_partial/}
+<p>{user.name} is in the parent view.</p>
