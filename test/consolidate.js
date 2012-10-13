@@ -20,4 +20,3 @@ require('./shared').test('mustache');
 require('./shared').test('dot');
 require('./shared').test('just');
 require('./shared').test('ect');
-require('./shared').test('mote');
