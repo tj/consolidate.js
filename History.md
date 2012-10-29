@@ -1,4 +1,14 @@
 
+0.5.0 / 2012-10-29 
+==================
+
+  * add `mote` support
+  * add support to `dust` partials
+  * add support for `ECT`
+  * add support for rendering without file
+  * add support for `JUST`
+  * improve Haml-Coffee caching.
+
 0.4.0 / 2012-07-30 
 ==================
 
