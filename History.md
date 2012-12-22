@@ -1,4 +1,11 @@
 
+0.6.0 2012-12-22 
+==================
+
+  * add partials support
+  * add support for toffee templates
+  * remove dot it still leaks and the author has not fixed it
+
 0.5.0 / 2012-10-29 
 ==================
 
