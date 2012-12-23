@@ -8,6 +8,7 @@
 
 ## Supported template engines
 
+  - [atpl](https://github.com/soywiz/atpl) [(website)](http://akdubya.github.com/dustjs/)
   - [dust](https://github.com/akdubya/dustjs) [(website)](http://akdubya.github.com/dustjs/)
   - [eco](https://github.com/sstephenson/eco)
   - [ect](https://github.com/baryshev/ect) [(website)](http://ectjs.com/)
