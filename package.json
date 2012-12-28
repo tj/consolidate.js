@@ -32,7 +32,8 @@
     "just": "0.1.8",
     "ect": "0.2.10",
     "mote": "0.2.0",
-    "toffee": "0.0.52"
+    "toffee": "0.0.52",
+	"atpl": ">=0.5.5"
   },
   "main": "index",
   "scripts": {
