@@ -5,7 +5,8 @@ var cons = require('../../')
   , readFileSync = fs.readFileSync;
 
 exports.test = function(name) {
-  var user = { name: 'Tobi' };
+  var user = [];
+  user.push({ name: 'Tobi' });
 
   describe(name, function(){
     afterEach(function(){
