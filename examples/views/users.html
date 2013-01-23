@@ -1,6 +1,6 @@
 <h1>{{title}}</h1>
 <ul>
-  {{#users}}
-    <li>{{name}}</li>
-  {{/users}}
+  {% for user in users %}
+    <li>{{user.name}}</li>
+  {% endfor %}
 </ul>

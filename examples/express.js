@@ -1,11 +1,10 @@
-
 // npm install express
 
-var express = require('express')
+var express = require('../../express')
   , cons = require('../')
   , app = express();
 
-app.engine('html', cons.templayed);
+app.engine('html', cons.swig);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
