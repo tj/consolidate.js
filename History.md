@@ -1,4 +1,10 @@
 
+0.8.0 / 2013-01-23 
+==================
+
+  * add templayed support
+  * add `then-jade` as an alternative to `jade`
+
 0.7.0 / 2012-12-28 
 ==================
 
