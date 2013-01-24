@@ -85,11 +85,11 @@ cons.plates('views/user.html', {user: 'Tobi', map: _map}, function(err, html) {
 
 ```html
 // user.html
-&lt;p id="user"&gt;&lt;/p&gt;
-&lt;ul class="list"&gt&gt;
+<p id="user"></p>
+<ul class="list"></ul>
 
 // partial.html
-&lt;li id="item"&gt;&lt;/item&gt;
+<li id="item"></li>
 ```
 
 ## Caching
