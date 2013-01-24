@@ -81,7 +81,9 @@ cons.plates('views/user.html', {user: 'Tobi', map: _map}, function(err, html) {
   if (err) throw err;
   console.log(html);
 });
+```
 
+```html
 // user.html
 &lt;p id="user"&gt;&lt;/p&gt;
 &lt;ul class="list"&gt&gt;
