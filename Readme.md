@@ -83,15 +83,6 @@ cons.plates('views/user.html', {user: 'Tobi', map: _map}, function(err, html) {
 });
 ```
 
-```html
-// user.html
-<p id="user"></p>
-<ul class="list"></ul>
-
-// partial.html
-<li id="item"></li>
-```
-
 ## Caching
 
  To enable caching simply pass `{ cache: true }`. Engines _may_ use this option to cache things reading the file contents, compiled `Function`s etc. Engines which do _not_ support this may simply ignore it. All engines that consolidate.js implements I/O for will cache the file contents, ideal for production environments.
