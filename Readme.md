@@ -23,6 +23,7 @@
   - [JUST](https://github.com/baryshev/just)
   - [liquor](https://github.com/chjj/liquor)
   - [mustache](https://github.com/janl/mustache.js)
+  - [plates](https://github.com/flatiron/plates)
   - [QEJS](https://github.com/jepso/QEJS)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [toffee](https://github.com/malgorithms/toffee)
@@ -66,6 +67,27 @@ cons[name]('views/page.html', { user: 'tobi' }, function(err, html){
   if (err) throw err;
   console.log(html);
 });
+```
+### Example using [Plates](https://github.com/flatiron/plates)
+
+Since plates' bind method accepts a third argument, a map object, consolidate has to map arguments to plates differently than the other engines. To pass a map object to the template add it to options.map. 
+
+```js
+var cons = require('consolidate')
+  , _map = require('plates').Map();
+
+_map.class('list').append('views/partial.html', {item: ['one', 'two']});
+cons.plates('views/user.html', {user: 'Tobi', map: _map}, function(err, html) {
+  if (err) throw err;
+  console.log(html);
+});
+
+// user.html
+&lt;p id="user"&gt;&lt;/p&gt;
+&lt;ul class="list"&gt&gt;
+
+// partial.html
+&lt;li id="item"&gt;&lt;/item&gt;
 ```
 
 ## Caching
