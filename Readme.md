@@ -70,7 +70,7 @@ cons[name]('views/page.html', { user: 'tobi' }, function(err, html){
 ```
 ### Example using [Plates](https://github.com/flatiron/plates)
 
-Since plates' bind method accepts a third argument, a map object, consolidate has to map arguments to plates differently than the other engines. To pass a map object to the template add it to options.map. 
+Plates accepts an optional third argument, a mapping object. To pass a map object through consolidate add it to options.map.
 
 ```js
 var cons = require('consolidate')
