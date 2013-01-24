@@ -34,7 +34,7 @@
     "mote": "0.2.0",
     "toffee": "0.0.52",
 	  "atpl": ">=0.5.5",
-    "templayed": ">=0.2.2"
+    "templayed": ">=0.2.3"
   },
   "main": "index",
   "scripts": {
