@@ -68,20 +68,6 @@ cons[name]('views/page.html', { user: 'tobi' }, function(err, html){
   console.log(html);
 });
 ```
-### Example using [Plates](https://github.com/flatiron/plates)
-
-Plates accepts an optional third argument, a mapping object. To pass a map object through consolidate add it to options.map.
-
-```js
-var cons = require('consolidate')
-  , _map = require('plates').Map();
-
-_map.class('list').append('views/partial.html', {item: ['one', 'two']});
-cons.plates('views/user.html', {user: 'Tobi', map: _map}, function(err, html) {
-  if (err) throw err;
-  console.log(html);
-});
-```
 
 ## Caching
 
