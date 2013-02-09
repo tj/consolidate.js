@@ -26,3 +26,4 @@ require('./shared').test('mote');
 require('./shared').test('toffee');
 require('./shared').test('atpl');
 require('./shared').test('templayed');
+require('./shared').test('dot');
