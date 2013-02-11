@@ -8,6 +8,7 @@
 
 ## Supported template engines
 
+  - [atpl](https://github.com/soywiz/atpl.js)
   - [dust](https://github.com/akdubya/dustjs) [(website)](http://akdubya.github.com/dustjs/)
   - [eco](https://github.com/sstephenson/eco)
   - [ect](https://github.com/baryshev/ect) [(website)](http://ectjs.com/)
@@ -24,6 +25,7 @@
   - [mustache](https://github.com/janl/mustache.js)
   - [QEJS](https://github.com/jepso/QEJS)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
+  - [templayed](http://archan937.github.com/templayed.js/)
   - [toffee](https://github.com/malgorithms/toffee)
   - [underscore](https://github.com/documentcloud/underscore) [(website)](http://documentcloud.github.com/underscore/)
   - [walrus](https://github.com/jeremyruppel/walrus) [(website)](http://documentup.com/jeremyruppel/walrus/)
