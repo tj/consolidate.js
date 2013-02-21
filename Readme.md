@@ -13,6 +13,7 @@
   - [eco](https://github.com/sstephenson/eco)
   - [ect](https://github.com/baryshev/ect) [(website)](http://ectjs.com/)
   - [ejs](https://github.com/visionmedia/ejs)
+  - [gaikan](https://github.com/Deathspike/gaikan)
   - [haml](https://github.com/visionmedia/haml.js) [(website)](http://haml-lang.com/)
   - [haml-coffee](https://github.com/9elements/haml-coffee) [(website)](http://haml-lang.com/)
   - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
