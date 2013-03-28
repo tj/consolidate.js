@@ -1,4 +1,11 @@
 
+0.9.0 / 2013-03-28 
+==================
+
+  * dust-helpers support, latest version of dust
+  * Re-add doT - global leaks fixed
+  * improving templayed support
+
 0.8.0 / 2013-01-23 
 ==================
 
