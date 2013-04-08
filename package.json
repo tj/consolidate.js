@@ -11,6 +11,7 @@
   "devDependencies": {
     "arc-templates": "^0.5.1",
     "atpl": ">=0.7.6",
+    "coffee-script": "^1.11.1",
     "dot": "^1.0.1",
     "dust": "^0.3.0",
     "dustjs-helpers": "^1.1.1",
@@ -42,6 +43,7 @@
     "should": "*",
     "slm": "^0.5.0",
     "swig": "^1.4.1",
+    "teacup": "^2.0.0",
     "templayed": ">=0.2.3",
     "tinyliquid": "^0.2.22",
     "toffee": "^0.1.12",
