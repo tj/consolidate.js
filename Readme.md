@@ -22,6 +22,7 @@
   - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
   - [JUST](https://github.com/baryshev/just)
   - [liquor](https://github.com/chjj/liquor)
+  - [lodash](https://github.com/bestiejs/lodash) [(website)](http://lodash.com/)
   - [mustache](https://github.com/janl/mustache.js)
   - [QEJS](https://github.com/jepso/QEJS)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
