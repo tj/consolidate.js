@@ -1,3 +1,9 @@
+0.9.1 / 2013-04-29 
+==================
+
+  * Update ECT version
+  * Added support for Handlebars helpers with test.
+  * Invalidates built-in dust cache if caching disabled
 
 0.9.0 / 2013-03-28 
 ==================
