@@ -36,7 +36,8 @@
     "toffee": "0.0.52",
     "atpl": ">=0.5.5",
     "templayed": ">=0.2.3",
-    "dot": "1.0.1"
+    "dot": "1.0.1",
+    "hot": "0.0.7"
   },
   "main": "index",
   "scripts": {
