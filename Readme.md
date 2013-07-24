@@ -37,7 +37,7 @@ __NOTE__: you must still install the engines you wish to use, add them to your p
 
   All templates supported by this library may be rendered using the signature `(path[, locals], callback)` as shown below, which happens to be the signature that Express 3.x supports so any of these engines may be used within Express.
 
-__NOTE__: All this example code uses cons.swig for the swig template engine. Replace swig with whatever templating you are using. For exmaple, use cons.hogan for hogan.js, cons.jade for jade, etc. `console.log(cons)` for the full list of identifiers.
+__NOTE__: All this example code uses cons.swig for the swig template engine. Replace swig with whatever templating you are using. For example, use cons.hogan for hogan.js, cons.jade for jade, etc. `console.log(cons)` for the full list of identifiers.
 
 ```js
 var cons = require('consolidate');
