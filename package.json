@@ -39,6 +39,10 @@
     "dot": "1.0.1"
   },
   "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/visionmedia/consolidate.js.git"
+  },
   "scripts": {
     "test": "mocha"
   }
