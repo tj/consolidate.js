@@ -24,6 +24,7 @@
   - [liquor](https://github.com/chjj/liquor)
   - [mustache](https://github.com/janl/mustache.js)
   - [QEJS](https://github.com/jepso/QEJS)
+  - [ractive](https://github.com/Rich-Harris/Ractive)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [templayed](http://archan937.github.com/templayed.js/)
   - [toffee](https://github.com/malgorithms/toffee)
