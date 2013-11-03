@@ -13,7 +13,7 @@ exports.test = function(name) {
       fs.readFileSync = readFileSync;
     });
 
-    if (name == 'hogan' || name == 'mustache' || name == 'handlebars') {
+    if (name == 'hogan' || name == 'mustache' || name == 'handlebars' || name == 'ractive') {
       it('should support partials', function(done){
         var path = 'test/fixtures/' + name + '/partials.' + name;
         var locals = { user: user, partials: { partial: 'user' } };
