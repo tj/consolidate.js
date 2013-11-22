@@ -18,6 +18,7 @@
     "jazz": "0.0.18",
     "jqtpl": "1.1.0",
     "liquor": "0.0.4",
+    "lodash": "1.2.0",
     "hamljs": "0.6.1",
     "whiskers": "0.2.2",
     "haml-coffee": "1.4.0",
