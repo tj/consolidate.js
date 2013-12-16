@@ -37,7 +37,7 @@
     "atpl": ">=0.5.5",
     "templayed": ">=0.2.3",
     "dot": "1.0.1",
-    "ractive": "0.3.7"
+    "ractive": "0.3.8"
   },
   "main": "index",
   "repository": {
