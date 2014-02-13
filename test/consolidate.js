@@ -20,6 +20,7 @@ require('./shared').test('underscore');
 require('./shared').test('lodash');
 require('./shared').test('qejs');
 require('./shared').test('walrus');
+require('./shared').test('minstache');
 require('./shared').test('mustache');
 require('./shared/partials').test('mustache');
 require('./shared').test('just');

@@ -23,6 +23,7 @@
   - [JUST](https://github.com/baryshev/just)
   - [liquor](https://github.com/chjj/liquor)
   - [lodash](https://github.com/bestiejs/lodash) [(website)](http://lodash.com/)
+  - [minstache](https://github.com/visionmedia/minstache)
   - [mustache](https://github.com/janl/mustache.js)
   - [QEJS](https://github.com/jepso/QEJS)
   - [ractive](https://github.com/Rich-Harris/Ractive)
@@ -93,7 +94,7 @@ var express = require('express')
 // assign the swig engine to .html files
 app.engine('html', cons.swig);
 
-// set .html as the default extension 
+// set .html as the default extension
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
@@ -122,14 +123,14 @@ console.log('Express server listening on port 3000');
 ## Running tests
 
   Install dev deps:
-  
+
     $ npm install -d
 
   Run the tests:
 
     $ make test
 
-## License 
+## License
 
 (The MIT License)
 
