@@ -83,6 +83,18 @@ cons.swig('views/page.html', { user: 'tobi' }, function(err, html){
 });
 ```
 
+## Engine settings
+
+ If engine requires additional pre-configuration simply pass `{ engineSettings: {} }` (currently supported only for _ect_).
+
+```js
+var cons = require('consolidate');
+cons.ect('views/page.html', { engineSettings: {watch: true, root: 'views'} }, function(err, html){
+  if (err) throw err;
+  console.log(html);
+});
+```
+
 ## Express 3.x example
 
 ```js
@@ -93,7 +105,7 @@ var express = require('express')
 // assign the swig engine to .html files
 app.engine('html', cons.swig);
 
-// set .html as the default extension 
+// set .html as the default extension
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
@@ -122,14 +134,14 @@ console.log('Express server listening on port 3000');
 ## Running tests
 
   Install dev deps:
-  
+
     $ npm install -d
 
   Run the tests:
 
     $ make test
 
-## License 
+## License
 
 (The MIT License)
 
