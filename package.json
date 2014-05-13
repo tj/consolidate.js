@@ -37,6 +37,7 @@
     "toffee": "0.0.52",
     "atpl": ">=0.7.6",
     "templayed": ">=0.2.3",
+    "tinyliquid": "~0.2.22",
     "dot": "1.0.1",
     "ractive": "0.3.7",
     "nunjucks": "~1.0.0"
