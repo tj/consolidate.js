@@ -119,6 +119,35 @@ app.listen(3000);
 console.log('Express server listening on port 3000');
 ```
 
+## Custom dustjs-helpers
+
+### Example for custom dustjs-helpers:
+
+```js
+
+var express = express('express');
+var moment = require('moment');
+var cons = require('consolidate');
+var app = express();
+
+app.engine('dust', cons.dust);
+app.set('view engine', 'dust');
+app.set('views', __dirname + '/views');
+app.set('template_engine', 'dust');
+
+var helpers = {};
+
+/* dust helper for date formating with momentjs */
+helpers.moment = function(chunk, context, bodies, params) {
+    var format = dust.helpers.tap(params.format, chunk, context);
+    var value = dust.helpers.tap(params.value, chunk, context);
+    var output = moment(value).format(format);
+    return chunk.write(output);
+};
+
+app.set('helpers', helpers);
+```
+
 ## Running tests
 
   Install dev deps:
