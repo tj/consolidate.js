@@ -24,6 +24,7 @@
   - [liquor](https://github.com/chjj/liquor)
   - [lodash](https://github.com/bestiejs/lodash) [(website)](http://lodash.com/)
   - [mustache](https://github.com/janl/mustache.js)
+  - [nunjucks](https://mozilla.github.io/nunjucks)
   - [QEJS](https://github.com/jepso/QEJS)
   - [ractive](https://github.com/Rich-Harris/Ractive)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
@@ -118,6 +119,12 @@ app.get('/users', function(req, res){
 app.listen(3000);
 console.log('Express server listening on port 3000');
 ```
+
+## Notes
+
+* You can pass **partials** with `options.partials`
+* For using **template inheritance** with nunjucks, you can pass a loader
+  with `options.loader`.
 
 ## Running tests
 
