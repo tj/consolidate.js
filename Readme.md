@@ -15,6 +15,7 @@
   - [ejs](https://github.com/visionmedia/ejs)
   - [haml](https://github.com/visionmedia/haml.js) [(website)](http://haml-lang.com/)
   - [haml-coffee](https://github.com/9elements/haml-coffee) [(website)](http://haml-lang.com/)
+  - [hamlet](https://github.com/gregwebs/hamlet.js)
   - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
   - [hogan](https://github.com/twitter/hogan.js) [(website)](http://twitter.github.com/hogan.js/)
   - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
