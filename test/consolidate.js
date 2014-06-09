@@ -32,3 +32,5 @@ require('./shared').test('dot');
 require('./shared').test('ractive');
 require('./shared/partials').test('ractive');
 require('./shared').test('nunjucks');
+require('./shared').test('octet');
+require('./shared').test('j140');

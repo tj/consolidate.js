@@ -1,4 +1,12 @@
 
+0.10.1 / 2014-06-08
+==================
+
+ * add octet support
+ * add j140 support
+ * update most template engines versions
+ * update ractive `.renderHTML` to `.toHTML` (deprecation message)
+
 0.10.0 / 2013-11-23
 ==================
 
