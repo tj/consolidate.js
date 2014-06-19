@@ -17,6 +17,7 @@
   - [haml-coffee](https://github.com/9elements/haml-coffee) [(website)](http://haml-lang.com/)
   - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
   - [hogan](https://github.com/twitter/hogan.js) [(website)](http://twitter.github.com/hogan.js/)
+  - [htmling](https://github.com/codemix/htmling)
   - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
   - [jazz](https://github.com/shinetech/jazz)
   - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
@@ -94,7 +95,7 @@ var express = require('express')
 // assign the swig engine to .html files
 app.engine('html', cons.swig);
 
-// set .html as the default extension 
+// set .html as the default extension
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
@@ -129,14 +130,14 @@ console.log('Express server listening on port 3000');
 ## Running tests
 
   Install dev deps:
-  
+
     $ npm install -d
 
   Run the tests:
 
     $ make test
 
-## License 
+## License
 
 (The MIT License)
 
