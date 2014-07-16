@@ -9,6 +9,7 @@
 ## Supported template engines
 
   - [atpl](https://github.com/soywiz/atpl.js)
+  - [Contemplate](https://github.com/foo123/Contemplate)
   - [dust](https://github.com/akdubya/dustjs) [(website)](http://akdubya.github.com/dustjs/)
   - [eco](https://github.com/sstephenson/eco)
   - [ect](https://github.com/baryshev/ect) [(website)](http://ectjs.com/)
@@ -35,6 +36,14 @@
   - [whiskers](https://github.com/gsf/whiskers.js)
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
+
+
+__NOTE__: For the *Contemplate engine* use:
+
+```javascript
+ cons.contemplate.load( require('path/to/Contemplate') ); // load the contemplate engine before rendering templates
+```
+
 
 ## API
 
