@@ -9,6 +9,7 @@
 ## Supported template engines
 
   - [atpl](https://github.com/soywiz/atpl.js)
+  - [doT.js](https://github.com/olado/doT) [(website)](http://olado.github.io/doT/)
   - [dust](https://github.com/akdubya/dustjs) [(website)](http://akdubya.github.com/dustjs/)
   - [eco](https://github.com/sstephenson/eco)
   - [ect](https://github.com/baryshev/ect) [(website)](http://ectjs.com/)
@@ -23,6 +24,7 @@
   - [JUST](https://github.com/baryshev/just)
   - [liquor](https://github.com/chjj/liquor)
   - [lodash](https://github.com/bestiejs/lodash) [(website)](http://lodash.com/)
+  - [mote](https://github.com/satchmorun/mote) [(website)](http://satchmorun.github.io/mote/)
   - [mustache](https://github.com/janl/mustache.js)
   - [nunjucks](https://mozilla.github.io/nunjucks)
   - [QEJS](https://github.com/jepso/QEJS)
@@ -94,7 +96,7 @@ var express = require('express')
 // assign the swig engine to .html files
 app.engine('html', cons.swig);
 
-// set .html as the default extension 
+// set .html as the default extension
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
@@ -129,14 +131,14 @@ console.log('Express server listening on port 3000');
 ## Running tests
 
   Install dev deps:
-  
+
     $ npm install -d
 
   Run the tests:
 
     $ make test
 
-## License 
+## License
 
 (The MIT License)
 
