@@ -77,10 +77,11 @@ cons[name]('views/page.html', { user: 'tobi' }, function(err, html){
 ## Caching
 
  To enable caching simply pass `{ cache: true }`. Engines _may_ use this option to cache things reading the file contents, compiled `Function`s etc. Engines which do _not_ support this may simply ignore it. All engines that consolidate.js implements I/O for will cache the file contents, ideal for production environments.
+To disable simply pass `{ cache: false }`, might be useful for engines caching by default (e.g. Swig). 
 
 ```js
 var cons = require('consolidate');
-cons.swig('views/page.html', { user: 'tobi' }, function(err, html){
+cons.swig('views/page.html', { cache: true, user: 'tobi' }, function(err, html){
   if (err) throw err;
   console.log(html);
 });
