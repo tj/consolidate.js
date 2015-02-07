@@ -28,7 +28,7 @@
   - [lodash](https://github.com/bestiejs/lodash) [(website)](http://lodash.com/)
   - [mote](https://github.com/satchmorun/mote) [(website)](http://satchmorun.github.io/mote/)
   - [mustache](https://github.com/janl/mustache.js)
-  - [nunjucks](https://mozilla.github.io/nunjucks)
+  - [nunjucks](https://github.com/mozilla/nunjucks) [(website)](https://mozilla.github.io/nunjucks)
   - [QEJS](https://github.com/jepso/QEJS)
   - [ractive](https://github.com/Rich-Harris/Ractive)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
