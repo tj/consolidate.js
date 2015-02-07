@@ -18,6 +18,7 @@
   - [haml-coffee](https://github.com/9elements/haml-coffee) [(website)](http://haml-lang.com/)
   - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
   - [hogan](https://github.com/twitter/hogan.js) [(website)](http://twitter.github.com/hogan.js/)
+  - [htmling](https://github.com/codemix/htmling)
   - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
   - [jazz](https://github.com/shinetech/jazz)
   - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
