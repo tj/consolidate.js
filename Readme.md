@@ -32,6 +32,7 @@
   - [nunjucks](https://github.com/mozilla/nunjucks) [(website)](https://mozilla.github.io/nunjucks)
   - [QEJS](https://github.com/jepso/QEJS)
   - [ractive](https://github.com/Rich-Harris/Ractive)
+  - [react](https://github.com/facebook/react)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [templayed](http://archan937.github.com/templayed.js/)
   - [liquid](https://github.com/leizongmin/tinyliquid) [(website)](http://liquidmarkup.org/)
@@ -134,6 +135,7 @@ console.log('Express server listening on port 3000');
 * To use **filters** with tinyliquid, use `options.filters` and specify an array of properties, each of which is a named filter function. A filter function takes a string as a parameter and returns a modified version of it.
 * To use **custom tags** with tinyliquid, use `options.customTags` to specify an array of tag functions that follow the tinyliquid [custom tag](https://github.com/leizongmin/tinyliquid/wiki/Custom-Tag) definition.
 * The default directory used with the **include** tag with tinyliquid is the current working directory. To override this, use `options.includeDir`.
+* To use a html base template (eg. `index.html` of your React app) with your `react`, pass the path to the template using a `options.base`.
 
 ## Running tests
 

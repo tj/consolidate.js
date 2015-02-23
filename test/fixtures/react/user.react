@@ -1,0 +1,13 @@
+var React = require('react');
+
+var User = React.createClass({
+  render: function() {
+    return (
+      <p>
+        {this.props.user.name}
+      </p>
+    );
+  }
+});
+
+module.exports = User;
