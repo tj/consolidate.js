@@ -126,6 +126,23 @@ app.listen(3000);
 console.log('Express server listening on port 3000');
 ```
 
+## Template Engine Instances
+
+Template engines are exposed via the `cons.requires` object, but they are not instantiated until you've called the `cons[engine].render()` method. You can instantiate them manually beforehand if you want to add filters, globals, mixins, or other engine features.
+
+```js
+var cons = require('consolidate'),
+  nunjucks = require('nunjucks');
+
+// add nunjucks to requires so filters can be
+// added and the same instance will be used inside the render method
+cons.requires.nunjucks = nunjucks;
+
+cons.requires.nunjucks.addFilter('foo', function () {
+  return 'bar';
+});
+```
+
 ## Notes
 
 * You can pass **partials** with `options.partials`

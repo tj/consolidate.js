@@ -79,5 +79,19 @@ exports.test = function(name) {
         done();
       });
     });
+
+    it('should be exposed in the requires object', function(){
+      var should = require('should'),
+        requiredName;
+      // haml and haml-coffee are exposed under different names
+      if (name === 'haml') {
+        requiredName = 'hamljs';
+      } else if (name === 'haml-coffee') {
+        requiredName = 'HAMLCoffee';
+      } else {
+        requiredName = name;
+      }
+      should.exist(cons.requires[requiredName]);
+    });
   });
 };
