@@ -1,6 +1,6 @@
 {
   "name": "consolidate",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "description": "Template engine consolidation library",
   "keywords": [
     "template",
