@@ -1,4 +1,5 @@
-
+/*eslint-env node*/
+/*eslint  quotes: [2, "single"] */
 require('./shared').test('jade');
 require('./shared').test('liquid');
 require('./shared/filters').test('liquid');
@@ -38,3 +39,4 @@ require('./shared/partials').test('ractive');
 require('./shared').test('nunjucks');
 require('./shared/filters').test('nunjucks');
 require('./shared').test('htmling');
+require('./shared/react').test('react');

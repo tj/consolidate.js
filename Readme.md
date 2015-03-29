@@ -32,6 +32,7 @@
   - [nunjucks](https://github.com/mozilla/nunjucks) [(website)](https://mozilla.github.io/nunjucks)
   - [QEJS](https://github.com/jepso/QEJS)
   - [ractive](https://github.com/Rich-Harris/Ractive)
+  - [react](https://github.com/facebook/react)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [templayed](http://archan937.github.com/templayed.js/)
   - [liquid](https://github.com/leizongmin/tinyliquid) [(website)](http://liquidmarkup.org/)
@@ -151,6 +152,7 @@ cons.requires.nunjucks.addFilter('foo', function () {
 * To use **filters** with tinyliquid, use `options.filters` and specify an array of properties, each of which is a named filter function. A filter function takes a string as a parameter and returns a modified version of it.
 * To use **custom tags** with tinyliquid, use `options.customTags` to specify an array of tag functions that follow the tinyliquid [custom tag](https://github.com/leizongmin/tinyliquid/wiki/Custom-Tag) definition.
 * The default directory used with the **include** tag with tinyliquid is the current working directory. To override this, use `options.includeDir`.
+* `React` To render content into a html base template (eg. `index.html` of your React app), pass the path of the template with `options.base`.
 
 ## Running tests
 
