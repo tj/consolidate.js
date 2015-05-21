@@ -80,6 +80,20 @@ exports.test = function(name) {
       });
     });
 
+    it('should return a promise', function(done){
+      var str = fs.readFileSync('test/fixtures/' + name + '/user.' + name).toString();
+      var locals = { user: user };
+      var result = cons[name].render(str, locals);
+
+      result.then(function (html) {
+        html.should.equal('<p>Tobi</p>');
+        done();
+      })
+      .catch(function (err) {
+        done(err);
+      });
+    });
+
     it('should be exposed in the requires object', function(){
       var should = require('should'),
         requiredName;

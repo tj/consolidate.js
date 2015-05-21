@@ -53,5 +53,8 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "q": "^1.4.1"
   }
 }
