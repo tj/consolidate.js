@@ -137,7 +137,7 @@ var cons = require('consolidate'),
 
 // add nunjucks to requires so filters can be
 // added and the same instance will be used inside the render method
-cons.requires.nunjucks = nunjucks;
+cons.requires.nunjucks = nunjucks.configure();
 
 cons.requires.nunjucks.addFilter('foo', function () {
   return 'bar';
