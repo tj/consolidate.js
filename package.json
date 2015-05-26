@@ -51,6 +51,7 @@
     "type": "git",
     "url": "https://github.com/visionmedia/consolidate.js.git"
   },
+  "license": "MIT",
   "scripts": {
     "test": "mocha"
   }
