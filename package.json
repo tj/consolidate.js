@@ -55,6 +55,6 @@
     "test": "mocha"
   },
   "dependencies": {
-    "q": "^1.4.1"
+    "bluebird": "^2.9.26"
   }
 }
