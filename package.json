@@ -54,5 +54,8 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.26"
   }
 }
