@@ -56,6 +56,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "bluebird": "^2.9.26"
+    "bluebird": "^2.9.26",
+    "fs-read-queue": "^0.1.1"
   }
 }
