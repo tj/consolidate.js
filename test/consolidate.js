@@ -43,3 +43,4 @@ require('./shared').test('htmling');
 require('./shared/react').test('react');
 require('./shared').test('vash');
 require('./shared/helpers').test('vash');
+require('./shared').test('slm');

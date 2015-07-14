@@ -33,6 +33,7 @@
   - [QEJS](https://github.com/jepso/QEJS)
   - [ractive](https://github.com/Rich-Harris/Ractive)
   - [react](https://github.com/facebook/react)
+  - [slm](https://github.com/slm-lang/slm)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [templayed](http://archan937.github.com/templayed.js/)
   - [twig](https://github.com/justjohn/twig.js)
