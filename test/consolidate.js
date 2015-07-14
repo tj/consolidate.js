@@ -40,3 +40,4 @@ require('./shared').test('nunjucks');
 require('./shared/filters').test('nunjucks');
 require('./shared').test('htmling');
 require('./shared/react').test('react');
+require('./shared').test('slm');
