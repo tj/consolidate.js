@@ -38,6 +38,7 @@
     "react": "^0.13.0",
     "react-tools": "^0.13.0",
     "should": "*",
+    "slm": "^0.4.1",
     "swig": "1.4.1",
     "templayed": ">=0.2.3",
     "tinyliquid": "~0.2.22",
