@@ -35,6 +35,18 @@ exports.test = function(name) {
       });
     });
 
+    it('should support promises', function(done){
+      var path = 'test/fixtures/' + name + '/user.' + name;
+      var locals = { user: user };
+      cons[name](path, locals)
+        .then(function(html){
+          html.should.equal('<p>Tobi</p>');
+          done();
+        })
+        .catch(function (err) {
+          done(err);
+        });
+    });
 
     it('should support rendering a string', function(done){
       var str = fs.readFileSync('test/fixtures/' + name + '/user.' + name).toString();
@@ -49,6 +61,21 @@ exports.test = function(name) {
         html.should.equal('<p>Tobi</p>');
         done();
       });
+    });
+
+
+    it('should support promises from a string', function(done){
+      var str = fs.readFileSync('test/fixtures/' + name + '/user.' + name).toString();
+      var locals = { user: user };
+
+      cons[name].render(str, locals)
+        .then(function(html){
+          html.should.equal('<p>Tobi</p>');
+          done();
+        })
+        .catch(function (err) {
+          return done(err);
+        });
     });
 
 

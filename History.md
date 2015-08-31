@@ -1,3 +1,10 @@
+0.13.0 / 2015-05-26
+===================
+
+ * fixes react template error
+ * adds promises when a callback function is not passed to `render`
+ * documentation updates
+
 0.11.0 / 2015-02-07
 ==================
 

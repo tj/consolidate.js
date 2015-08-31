@@ -79,6 +79,22 @@ cons[name]('views/page.html', { user: 'tobi' }, function(err, html){
 });
 ```
 
+### Promises
+
+  Additionally, all templates optionally return a promise if no callback function is provided. The promise represents the eventual result of the template function which will either resolve to a string, compiled from the template, or be rejected. Promises expose a `then` method which registers callbacks to receive the promise’s eventual value and a `catch` method which the reason why the promise could not be fulfilled. Promises allow more synchronous-like code structure and solve issues like race conditions.
+
+```js
+var cons = require('consolidate');
+
+cons.swig('views/page.html', { user: 'tobi' })
+  .then(function (html) {
+    console.log(html);
+  })
+  .catch(function (err) {
+    throw err;
+  });
+```
+
 ## Caching
 
  To enable or disable caching simply pass `{ cache: true/false }`. Engines _may_ use this option to cache things reading the file contents, compiled `Function`s etc. Engines which do _not_ support this may simply ignore it. All engines that consolidate.js implements I/O for will cache the file contents, ideal for production environments.
@@ -137,7 +153,7 @@ var cons = require('consolidate'),
 
 // add nunjucks to requires so filters can be
 // added and the same instance will be used inside the render method
-cons.requires.nunjucks = nunjucks;
+cons.requires.nunjucks = nunjucks.configure();
 
 cons.requires.nunjucks.addFilter('foo', function () {
   return 'bar';

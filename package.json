@@ -1,6 +1,6 @@
 {
   "name": "consolidate",
-  "version": "0.12.1",
+  "version": "0.13.1",
   "description": "Template engine consolidation library",
   "keywords": [
     "template",
@@ -51,7 +51,11 @@
     "type": "git",
     "url": "https://github.com/visionmedia/consolidate.js.git"
   },
+  "license": "MIT",
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.26"
   }
 }
