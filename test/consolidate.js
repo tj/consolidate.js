@@ -10,7 +10,7 @@ require('./shared').test('jazz');
 require('./shared').test('jqtpl');
 require('./shared').test('liquor');
 require('./shared').test('haml');
-//require('./shared').test('hamlet');
+require('./shared').test('hamlet');
 require('./shared').test('eco');
 require('./shared').test('whiskers');
 require('./shared').test('haml-coffee');
