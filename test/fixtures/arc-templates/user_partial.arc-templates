@@ -1,0 +1,1 @@
+<! (views + '/_layout.arc-templates') !><p>${ user.name }</p>
