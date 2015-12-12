@@ -42,6 +42,7 @@
     "templayed": ">=0.2.3",
     "tinyliquid": "~0.2.22",
     "toffee": "0.0.52",
+    "twig": "^0.8.2",
     "underscore": "1.3.3",
     "walrus": "0.9.0",
     "whiskers": "0.2.2"
