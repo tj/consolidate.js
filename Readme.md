@@ -15,15 +15,15 @@
   - [eco](https://github.com/sstephenson/eco)
   - [ect](https://github.com/baryshev/ect) [(website)](http://ectjs.com/)
   - [ejs](https://github.com/visionmedia/ejs)
-  - [haml](https://github.com/visionmedia/haml.js) [(website)](http://haml-lang.com/)
-  - [haml-coffee](https://github.com/9elements/haml-coffee) [(website)](http://haml-lang.com/)
+  - [haml](https://github.com/visionmedia/haml.js)
+  - [haml-coffee](https://github.com/9elements/haml-coffee)
   - [hamlet](https://github.com/gregwebs/hamlet.js)
   - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
   - [hogan](https://github.com/twitter/hogan.js) [(website)](http://twitter.github.com/hogan.js/)
   - [htmling](https://github.com/codemix/htmling)
   - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
   - [jazz](https://github.com/shinetech/jazz)
-  - [jqtpl](https://github.com/kof/node-jqtpl) [(website)](http://api.jquery.com/category/plugins/templates/)
+  - [jqtpl](https://github.com/kof/jqtpl)
   - [JUST](https://github.com/baryshev/just)
   - [liquor](https://github.com/chjj/liquor)
   - [lodash](https://github.com/bestiejs/lodash) [(website)](http://lodash.com/)
@@ -186,7 +186,7 @@ cons.requires.nunjucks.addFilter('foo', function () {
 
 (The MIT License)
 
-Copyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;
+Copyright (c) 2011-2016 TJ Holowaychuk &lt;tj@vision-media.ca&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
