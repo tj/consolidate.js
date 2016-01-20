@@ -35,6 +35,7 @@
   - [react](https://github.com/facebook/react)
   - [swig](https://github.com/paularmstrong/swig) [(website)](http://paularmstrong.github.com/swig/)
   - [templayed](http://archan937.github.com/templayed.js/)
+  - [twig](https://github.com/justjohn/twig.js)
   - [liquid](https://github.com/leizongmin/tinyliquid) [(website)](http://liquidmarkup.org/)
   - [toffee](https://github.com/malgorithms/toffee)
   - [underscore](https://github.com/documentcloud/underscore) [(website)](http://documentcloud.github.com/underscore/)
