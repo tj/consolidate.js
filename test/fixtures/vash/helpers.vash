@@ -1,0 +1,1 @@
+<strong>@html.lowerCase(model.user.name)</strong>
