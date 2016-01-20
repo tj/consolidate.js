@@ -16,7 +16,11 @@ exports.test = function(name) {
       cons[name].render(str, locals, function(err, html){
         if (err) return done(err);
         try{
-          html.should.eql('<p>Tobi</p>');
+          if (name === 'liquid') {
+            html.should.eql('<p>Tobi</p><footer></footer>');
+          } else {
+            html.should.eql('<p>Tobi</p>');
+          }
           return done();
         } catch(e) {
           return done(e);
