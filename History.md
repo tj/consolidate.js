@@ -1,3 +1,12 @@
+0.14.0 / 2016-01-24
+===================
+
+ * add slm support
+ * add vash support
+ * add twig support
+ * fixes lodash 4 options
+ * fixes liquid file extensions and path resolving
+
 0.13.0 / 2015-05-26
 ===================
 
