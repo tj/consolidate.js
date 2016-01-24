@@ -27,7 +27,7 @@ exports.test = function(name) {
     else {
       it('should support rendering a partial', function(done){
         var str = fs.readFileSync('test/fixtures/' + name + '/user_partial.' + name).toString();
-        var locals = { 
+        var locals = {
           user: user,
           views: "./test/fixtures/" + name
         };

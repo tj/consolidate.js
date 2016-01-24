@@ -38,7 +38,7 @@ exports.test = function(name) {
         var user = { name: 'Tobi' };
 
         // See this for Vash helper system : https://github.com/kirbysayshi/vash#helper-system
-        // Use case: return as as lower case 
+        // Use case: return as as lower case
         it('should support helpers', function(done) {
             var str = fs.readFileSync('test/fixtures/' + name + '/helpers.' + name).toString();
 
