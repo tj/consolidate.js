@@ -59,6 +59,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "bluebird": "^3.1.1"
+    "bluebird": "^3.1.1",
+    "liquid-node": "^2.6.1",
+    "slm": "^0.5.0"
   }
 }

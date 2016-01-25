@@ -10,14 +10,13 @@ exports.test = function(name) {
 
     it('should support includes', function(done) {
       var str = fs.readFileSync('test/fixtures/' + name + '/include.' + name).toString();
-
       var locals = { user: user, includeDir: 'test/fixtures/' + name };
 
       cons[name].render(str, locals, function(err, html){
         if (err) return done(err);
         try{
           if (name === 'liquid') {
-            html.should.eql('<p>Tobi</p><section></section><footer></footer>');
+            html.should.eql('<p>Tobi</p>\n<section></section>\n<footer></footer>');
           } else {
             html.should.eql('<p>Tobi</p>');
           }

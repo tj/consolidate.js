@@ -13,7 +13,7 @@ exports.test = function(name) {
       var str = fs.readFileSync('test/fixtures/' + name + '/filters.' + name).toString();
 
       var locals = { user: user, filters: { toupper: function(object) {
-        return object.toUpperCase();
+        return String(object).toUpperCase();
       }}};
 
       cons[name].render(str, locals, function(err, html){
