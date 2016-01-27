@@ -16,7 +16,7 @@ exports.test = function(name) {
         if (err) return done(err);
         try{
           if (name === 'liquid') {
-            html.should.eql('<p>Tobi</p>\n<section></section>\n<footer></footer>');
+            html.should.eql('<p>Tobi</p><section></section><footer></footer>');
           } else {
             html.should.eql('<p>Tobi</p>');
           }
