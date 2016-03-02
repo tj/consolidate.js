@@ -10,6 +10,9 @@
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "devDependencies": {
     "atpl": ">=0.7.6",
+    "babel-core": "^6.6.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
     "dot": "^1.0.1",
     "dust": "^0.3.0",
     "dustjs-helpers": "^1.1.1",
