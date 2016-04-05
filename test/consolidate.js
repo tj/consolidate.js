@@ -45,3 +45,5 @@ require('./shared/react').test('react');
 require('./shared').test('vash');
 require('./shared/helpers').test('vash');
 require('./shared').test('slm');
+// Require the fixture here so the precompile happens before consolidate requires it
+require('./fixtures/react/user.react');
