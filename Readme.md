@@ -39,7 +39,7 @@
   - [twig](https://github.com/justjohn/twig.js)
   - [liquid](https://github.com/leizongmin/tinyliquid) [(website)](http://liquidmarkup.org/)
   - [toffee](https://github.com/malgorithms/toffee)
-  - [underscore](https://github.com/documentcloud/underscore) [(website)](http://documentcloud.github.com/underscore/)
+  - [underscore](https://github.com/documentcloud/underscore) [(website)](http://underscorejs.org/#template)
   - [vash](https://github.com/kirbysayshi/vash)
   - [walrus](https://github.com/jeremyruppel/walrus) [(website)](http://documentup.com/jeremyruppel/walrus/)
   - [whiskers](https://github.com/gsf/whiskers.js)
