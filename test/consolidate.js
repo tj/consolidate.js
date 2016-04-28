@@ -46,3 +46,7 @@ require('./shared/react').test('react');
 require('./shared').test('vash');
 require('./shared/helpers').test('vash');
 require('./shared').test('slm');
+require('./shared').test('arc-templates');
+require('./shared/filters').test('arc-templates');
+require('./shared/includes').test('arc-templates');
+require('./shared/partials').test('arc-templates');
