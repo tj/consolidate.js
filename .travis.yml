@@ -1,9 +1,12 @@
 sudo: false
 language: node_js
 node_js:
-  - "0.10"
-  - "0.12"
-  - "4"
   - "5"
-before_install:
-  - npm install npm -g
+  - "4"
+  - "0.12"
+  - "0.10"
+matrix:
+  fast_finish: true
+  allow_failures:
+    - node_js: "0.10"
+    - node_js: "0.12"
