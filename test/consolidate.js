@@ -1,6 +1,7 @@
 /*eslint-env node*/
 /*eslint  quotes: [2, "single"] */
 require('./shared').test('jade');
+require('./shared').test('pug');
 require('./shared').test('liquid');
 require('./shared/filters').test('liquid');
 require('./shared/includes').test('liquid');
