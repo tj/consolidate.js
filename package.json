@@ -1,5 +1,5 @@
 {
-  "name": "consolidate",
+  "name": "consolidate-velocity",
   "version": "0.14.0",
   "description": "Template engine consolidation library",
   "keywords": [
@@ -59,6 +59,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "bluebird": "^3.1.1"
+    "bluebird": "^3.1.1",
+    "velocityjs": "^0.8.5"
   }
 }
