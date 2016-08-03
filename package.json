@@ -1,6 +1,6 @@
 {
   "name": "consolidate-velocity",
-  "version": "0.14.0",
+  "version": "0.14.2",
   "description": "Template engine consolidation library",
   "keywords": [
     "template",
