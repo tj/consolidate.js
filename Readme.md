@@ -27,6 +27,7 @@
   - [JUST](https://github.com/baryshev/just)
   - [liquor](https://github.com/chjj/liquor)
   - [lodash](https://github.com/bestiejs/lodash) [(website)](http://lodash.com/)
+  - [marko](https://github.com/marko-js/marko) [(website)](http://markojs.com)
   - [mote](https://github.com/satchmorun/mote) [(website)](http://satchmorun.github.io/mote/)
   - [mustache](https://github.com/janl/mustache.js)
   - [nunjucks](https://github.com/mozilla/nunjucks) [(website)](https://mozilla.github.io/nunjucks)
