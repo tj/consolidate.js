@@ -166,6 +166,7 @@ cons.requires.nunjucks.addFilter('foo', function () {
 
 ## Notes
 
+* If you're using Nunjucks, please take a look at the `exports.nunjucks.render` function in `lib.consolidate.js`.  You can pass your own engine/environment via `options.nunjucksEnv`, or if you want to support Express you can pass `options.settings.views`, or if you have another use case, pass `options.nunjucks` (see the code for more insight).
 * You can pass **partials** with `options.partials`
 * For using **template inheritance** with nunjucks, you can pass a loader
   with `options.loader`.
