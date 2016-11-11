@@ -9,6 +9,8 @@
   "devDependencies": {
     "arc-templates": "^0.5.1",
     "atpl": ">=0.7.6",
+    "babel-core": "^6.7.6",
+    "babel-preset-react": "^6.5.0",
     "dot": "^1.0.1",
     "dust": "^0.3.0",
     "dustjs-helpers": "^1.1.1",
@@ -41,7 +43,6 @@
     "ractive": "^0.8.4",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-tools": "^0.13.0",
     "should": "*",
     "slm": "^0.5.0",
     "swig": "^1.4.1",
