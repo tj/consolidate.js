@@ -1,6 +1,7 @@
 /*eslint-env node*/
 /*eslint  quotes: [2, "single"] */
 require('./shared').test('jade');
+require('./shared').test('pug');
 require('./shared').test('liquid');
 require('./shared/filters').test('liquid');
 require('./shared/includes').test('liquid');
@@ -45,3 +46,7 @@ require('./shared/react').test('react');
 require('./shared').test('vash');
 require('./shared/helpers').test('vash');
 require('./shared').test('slm');
+require('./shared').test('arc-templates');
+require('./shared/filters').test('arc-templates');
+require('./shared/includes').test('arc-templates');
+require('./shared/partials').test('arc-templates');

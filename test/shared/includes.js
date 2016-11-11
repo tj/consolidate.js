@@ -14,7 +14,7 @@ exports.test = function(name) {
       var viewsDir = 'test/fixtures/' + name;
       var locals = { user: user, settings: { views: viewsDir } };
 
-      if (name === 'liquid') {
+      if (name === 'liquid' || name === 'arc-templates') {
         locals.includeDir = viewsDir;
       }
 
