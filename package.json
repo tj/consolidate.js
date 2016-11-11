@@ -1,7 +1,7 @@
 {
   "name": "consolidate",
   "description": "Template engine consolidation library",
-  "version": "0.14.3",
+  "version": "0.14.4",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "dependencies": {
     "bluebird": "^3.1.1"
