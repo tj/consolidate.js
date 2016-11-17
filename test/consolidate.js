@@ -51,3 +51,4 @@ require('./shared/filters').test('arc-templates');
 require('./shared/includes').test('arc-templates');
 require('./shared/partials').test('arc-templates');
 require('./shared').test('marko');
+require('./shared').test('bracket');
