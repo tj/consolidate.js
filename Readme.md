@@ -9,6 +9,7 @@
 ## Supported template engines
 
   - [atpl](https://github.com/soywiz/atpl.js)
+  - [bracket](https://github.com/danlevan/bracket-template)
   - [doT.js](https://github.com/olado/doT) [(website)](http://olado.github.io/doT/)
   - [dust (unmaintained)](https://github.com/akdubya/dustjs) [(website)](http://akdubya.github.com/dustjs/)
   - [dustjs-linkedin (maintained fork of dust)](https://github.com/linkedin/dustjs) [(website)](http://linkedin.github.io/dustjs/)
