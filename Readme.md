@@ -49,6 +49,10 @@
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
+### Non-template engine support
+
+The mainline consolidate.js module is focused on consolidating dynamic template engines. For static non-template engines like Markdown, Less, and CoffeeScript, see [ForbesLindesay's consolidate-build](https://github.com/ForbesLindesay/consolidate-build).
+
 ## API
 
   All templates supported by this library may be rendered using the signature `(path[, locals], callback)` as shown below, which happens to be the signature that Express 3.x supports so any of these engines may be used within Express.
