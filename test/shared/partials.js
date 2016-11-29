@@ -1,6 +1,7 @@
 
 var cons = require('../../')
   , fs = require('fs')
+  , npath = require('path')
   , readFile = fs.readFile
   , readFileSync = fs.readFileSync;
 
@@ -16,6 +17,15 @@ exports.test = function(name) {
     if (name == 'hogan' || name == 'mustache' || name == 'handlebars' || name == 'ractive') {
       it('should support partials', function(done){
         var path = 'test/fixtures/' + name + '/partials.' + name;
+        var locals = { user: user, partials: { partial: 'user' } };
+        cons[name](path, locals, function(err, html){
+          if (err) return done(err);
+          html.should.equal('<p>Tobi</p>');
+          done();
+        });
+      });
+      it('should support partials with absolute path', function(done){
+        var path = npath.join(__dirname, '../fixtures/', name, '/partials.'+name);
         var locals = { user: user, partials: { partial: 'user' } };
         cons[name](path, locals, function(err, html){
           if (err) return done(err);
