@@ -1,11 +1,11 @@
 // npm install express
 
-var express = require('../../express')
-  , cons = require('../')
-  , app = express();
+var express = require('express')
+var cons = require('../')
+var app = express();
 
-app.engine('html', cons.swig);
-app.set('view engine', 'html');
+app.engine('vue', cons.expressVue);
+app.set('view engine', 'vue');
 app.set('views', __dirname + '/views');
 
 var users = [];
@@ -15,14 +15,19 @@ users.push({ name: 'jane' });
 
 app.get('/', function(req, res){
   res.render('index', {
-    title: 'Consolidate.js'
+    data: {
+        title: 'Consolidate.js'
+    }
   });
 });
 
 app.get('/users', function(req, res){
   res.render('users', {
-    title: 'Users',
-    users: users
+    data: {
+      title: 'Users',
+      users: users
+    }
+
   });
 });
 
