@@ -7,11 +7,10 @@ var app = express();
 app.engine('vue', cons.expressVue);
 app.set('view engine', 'vue');
 app.set('views', __dirname + '/views');
-// app.set('vue', {
-//     layoutsDir: __dirname + '/views',
-//     componentsDir:  __dirname + '/components',
-//     defaultLayout: 'ff'
-// })
+app.set('vue', {
+    componentsDir:  __dirname + '/views/components',
+    defaultLayout: 'ff'
+})
 
 var users = [];
 users.push({ name: 'tobi' });
