@@ -9,6 +9,7 @@
         <body>
             {{{app}}}
             {{{script}}}
+            FARTS
             <script>app.$mount('#app')</script>
         </body>
     </html>
