@@ -2,9 +2,10 @@
     <div>
         <h1>{{title}}</h1>
         <p>Welcome to the {{title}} demo. Click a link:</p>
-        <ul>
-            <li><a href="/users">/users</a></li>
-        </ul>
+        <input v-model="message" placeholder="edit me">
+        <message :message="message"></message>
+        <users :users="users"></users>
+
     </div>
 </template>
 
