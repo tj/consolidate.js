@@ -11,7 +11,7 @@
     "atpl": ">=0.7.6",
     "babel-core": "^6.7.6",
     "babel-preset-react": "^6.5.0",
-    "bracket-template": "^1.0.3",
+    "bracket-template": "^1.1.4",
     "dot": "^1.0.1",
     "dust": "^0.3.0",
     "dustjs-helpers": "^1.1.1",
