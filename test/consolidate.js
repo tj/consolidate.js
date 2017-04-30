@@ -19,6 +19,7 @@ require('./shared').test('hogan');
 require('./shared/partials').test('hogan');
 require('./shared').test('dust');
 require('./shared/partials').test('dust');
+require('./shared/dust').test('dust');
 require('./shared').test('handlebars');
 require('./shared/partials').test('handlebars');
 require('./shared/helpers').test('handlebars');
