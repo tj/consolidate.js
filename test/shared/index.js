@@ -44,7 +44,9 @@ exports.test = function(name) {
         cons[name](path, locals, function(err, html){
           if (err) return done(err);
           html.should.equal('<p>Tobi</p>');
-          calls.should.equal(name === 'atpl' ? 4 : 2);
+          calls.should.equal( name === 'atpl' ? 4
+                            : name === 'marko' ? 0
+                            : 2);
           done();
         });
       });
