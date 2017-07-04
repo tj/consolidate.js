@@ -47,7 +47,7 @@
     "react-dom": "^15.3.2",
     "should": "*",
     "slm": "^0.5.0",
-    "swig": "^1.4.1",
+    "swig-templates": "^2.0.2",
     "templayed": ">=0.2.3",
     "tinyliquid": "^0.2.22",
     "toffee": "^0.1.12",
