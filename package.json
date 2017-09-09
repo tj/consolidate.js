@@ -4,7 +4,7 @@
   "version": "0.14.5",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "dependencies": {
-    "bluebird": "^3.1.1"
+    "util.promisify": "^1.0.0"
   },
   "devDependencies": {
     "arc-templates": "^0.5.1",
