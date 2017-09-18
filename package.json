@@ -3,6 +3,12 @@
   "description": "Template engine consolidation library",
   "version": "0.14.5",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "license": "MIT",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/visionmedia/consolidate.js.git"
+  },
   "dependencies": {
     "bluebird": "^3.1.1"
   },
@@ -40,6 +46,7 @@
     "mote": "^0.2.0",
     "mustache": "^2.2.1",
     "nunjucks": "^3.0.0",
+    "plates": "~0.4.8",
     "pug": "^2.0.0-beta6",
     "qejs": "^3.0.5",
     "ractive": "^0.8.4",
@@ -62,12 +69,6 @@
     "template",
     "view"
   ],
-  "license": "MIT",
-  "main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/visionmedia/consolidate.js.git"
-  },
   "scripts": {
     "test": "mocha"
   }

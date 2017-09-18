@@ -33,6 +33,7 @@ require('./shared').test('ect');
 require('./shared').test('mote');
 require('./shared').test('toffee');
 require('./shared').test('atpl');
+require('./shared').test('plates');
 require('./shared').test('templayed');
 require('./shared').test('twig');
 require('./shared').test('dot');

@@ -32,6 +32,7 @@
   - [mote](https://github.com/satchmorun/mote) [(website)](http://satchmorun.github.io/mote/)
   - [mustache](https://github.com/janl/mustache.js)
   - [nunjucks](https://github.com/mozilla/nunjucks) [(website)](https://mozilla.github.io/nunjucks)
+  - [plates](https://github.com/flatiron/plates)
   - [pug (formerly jade)](https://github.com/pugjs/pug) [(website)](http://jade-lang.com/)
   - [QEJS](https://github.com/jepso/QEJS)
   - [ractive](https://github.com/Rich-Harris/Ractive)
