@@ -4,6 +4,7 @@
  * add plates support
  * add teacup support
  * add liquid-node support
+ * add velocityjs support
  * allow absolute and relative partial paths
  * extend dot options
  * support layouts in vash

@@ -65,3 +65,4 @@ require('./shared/partials').test('arc-templates');
 require('./shared').test('marko');
 require('./shared').test('bracket');
 require('./shared').test('teacup');
+require('./shared').test('velocityjs');
