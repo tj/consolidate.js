@@ -86,7 +86,7 @@ exports.test = function(name) {
       var result = cons[name](path, locals);
 
       result.then(function (html) {
-        html.should.equal('<p>Tobi</p>');
+        html.should.match(/Tobi/);
         done();
       })
       .catch(function (err) {
@@ -100,7 +100,7 @@ exports.test = function(name) {
       var result = cons[name].render(str, locals);
 
       result.then(function (html) {
-        html.should.equal('<p>Tobi</p>');
+        html.should.match(/Tobi/);
         done();
       })
       .catch(function (err) {
