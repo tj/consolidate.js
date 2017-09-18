@@ -39,6 +39,7 @@
   - [react](https://github.com/facebook/react)
   - [slm](https://github.com/slm-lang/slm)
   - [swig (unmaintained)](https://github.com/paularmstrong/swig)
+  - [teacup](https://github.com/goodeggs/teacup)
   - [templayed](http://archan937.github.com/templayed.js/)
   - [twig](https://github.com/justjohn/twig.js)
   - [liquid](https://github.com/leizongmin/tinyliquid) [(website)](http://liquidmarkup.org/)
