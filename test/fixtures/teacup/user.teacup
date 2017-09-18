@@ -1,0 +1,4 @@
+{renderable, p} = require 'teacup'
+
+module.exports = renderable ({user}) ->
+  p user.name
