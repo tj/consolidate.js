@@ -105,15 +105,9 @@ cons.swig('views/page.html', { user: 'tobi' })
 
 ## Caching
 
- To enable or disable caching simply pass `{ cache: true/false }`. Engines _may_ use this option to cache things reading the file contents, compiled `Function`s etc. Engines which do _not_ support this may simply ignore it. All engines that consolidate.js implements I/O for will cache the file contents, ideal for production environments.
-
-```js
-var cons = require('consolidate');
-cons.swig('views/page.html', { cache: false, user: 'tobi' }, function(err, html){
-  if (err) throw err;
-  console.log(html);
-});
-```
+ To enable caching simply pass `{ cache: true }`. Engines _may_ use this option to cache things reading the file contents, compiled `Function`s etc. Engines which do _not_ support this may simply ignore it. All engines that consolidate.js implements I/O for will cache the file contents, ideal for production environments.
+ When using consolidate directly: `cons.swig('views/page.html', { user: 'tobi', cache:true }, callback);`
+ Using Express 3 or higher: `app.locals.cache = true` or set NODE_ENV to 'production' and Express will do this for you.
 
 ## Express 3.x example
 
