@@ -3,6 +3,8 @@
 
  * add plates support
  * add teacup support
+ * allow absolute and relative partial paths
+ * extend dot options
 
 0.14.0 / 2016-01-24
 ===================
