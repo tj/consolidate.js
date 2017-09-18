@@ -66,6 +66,7 @@
     "vash": "^0.12.2",
     "walrus": "^0.10.1",
     "whiskers": "^0.4.0"
+    "velocityjs": "^0.8.2"
   },
   "keywords": [
     "engine",
