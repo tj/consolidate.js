@@ -6,7 +6,7 @@ var should = require('should');
 exports.test = function(name) {
   var user = { name: 'Tobi' };
 
-  describe(name, function(){
+  describe(name, function() {
 
     it('should support includes', function(done) {
       var str = fs.readFileSync('test/fixtures/' + name + '/include.' + name).toString();
