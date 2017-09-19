@@ -38,6 +38,7 @@
   - [ractive](https://github.com/Rich-Harris/Ractive)
   - [react](https://github.com/facebook/react)
   - [slm](https://github.com/slm-lang/slm)
+  - [swig (unmaintained)](https://github.com/paularmstrong/swig)
   - [swig (maintained fork)](https://github.com/node-swig/swig-templates)
   - [teacup](https://github.com/goodeggs/teacup)
   - [templayed](http://archan937.github.com/templayed.js/)
