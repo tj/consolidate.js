@@ -1,3 +1,14 @@
+0.15.0 / 2017-09-18
+===================
+
+ * add plates support
+ * add teacup support
+ * add liquid-node support
+ * add velocityjs support
+ * allow absolute and relative partial paths
+ * extend dot options
+ * support layouts in vash
+
 0.14.0 / 2016-01-24
 ===================
 

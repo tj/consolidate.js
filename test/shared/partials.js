@@ -23,6 +23,24 @@ exports.test = function(name) {
           done();
         });
       });
+      it('should support absolute path partial', function(done){
+        var path = 'test/fixtures/' + name + '/partials.' + name;
+        var locals = {user: user, partials: {partial: __dirname + '/../../test/fixtures/' + name + '/user' }};
+        cons[name](path, locals, function(err, html){
+          if (err) return done(err);
+          html.should.equal('<p>Tobi</p>');
+          done();
+        });
+      });
+      it('should support relative path partial', function(done){
+        var path = 'test/fixtures/' + name + '/partials.' + name;
+        var locals = {user: user, partials: {partial: '../' + name + '/user' }};
+        cons[name](path, locals, function(err, html){
+          if (err) return done(err);
+          html.should.equal('<p>Tobi</p>');
+          done();
+        });
+      });
     }
     else {
       it('should support rendering a partial', function(done){

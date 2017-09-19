@@ -1,10 +1,21 @@
+var cons = require('../');
 /*eslint-env node*/
 /*eslint  quotes: [2, "single"] */
 require('./shared').test('jade');
 require('./shared').test('pug');
+
+// testing tinyliquid
+cons.requires.liquid = require('tinyliquid');
 require('./shared').test('liquid');
 require('./shared/filters').test('liquid');
 require('./shared/includes').test('liquid');
+
+// testing liquid-node
+cons.requires.liquid = require('liquid-node');
+require('./shared').test('liquid');
+require('./shared/filters').test('liquid');
+require('./shared/includes').test('liquid');
+
 require('./shared').test('ejs');
 require('./shared').test('swig');
 require('./shared').test('jazz');
@@ -19,6 +30,7 @@ require('./shared').test('hogan');
 require('./shared/partials').test('hogan');
 require('./shared').test('dust');
 require('./shared/partials').test('dust');
+require('./shared/dust').test('dust');
 require('./shared').test('handlebars');
 require('./shared/partials').test('handlebars');
 require('./shared/helpers').test('handlebars');
@@ -33,6 +45,7 @@ require('./shared').test('ect');
 require('./shared').test('mote');
 require('./shared').test('toffee');
 require('./shared').test('atpl');
+require('./shared').test('plates');
 require('./shared').test('templayed');
 require('./shared').test('twig');
 require('./shared').test('dot');
@@ -52,3 +65,5 @@ require('./shared/includes').test('arc-templates');
 require('./shared/partials').test('arc-templates');
 require('./shared').test('marko');
 require('./shared').test('bracket');
+require('./shared').test('teacup');
+require('./shared').test('velocityjs');
