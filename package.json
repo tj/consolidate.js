@@ -56,6 +56,7 @@
     "react-dom": "^15.3.2",
     "should": "*",
     "slm": "^0.5.0",
+    "swig-templates": "^2.0.2",
     "swig": "^1.4.1",
     "teacup": "^2.0.0",
     "templayed": ">=0.2.3",
