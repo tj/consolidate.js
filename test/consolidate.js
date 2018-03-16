@@ -35,6 +35,7 @@ require('./shared').test('handlebars');
 require('./shared/partials').test('handlebars');
 require('./shared/helpers').test('handlebars');
 require('./shared').test('underscore');
+require('./shared/partials').test('underscore');
 require('./shared').test('lodash');
 require('./shared').test('qejs');
 require('./shared').test('walrus');
