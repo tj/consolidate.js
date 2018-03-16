@@ -1,7 +1,5 @@
-var cons = require('../../')
-  , fs = require('fs');
-
-var should = require('should');
+var cons = require('../../');
+var fs = require('fs');
 
 exports.test = function(name) {
   var user = { name: 'Tobi' };
@@ -12,9 +10,10 @@ exports.test = function(name) {
     it('should support filters', function(done) {
       var str = fs.readFileSync('test/fixtures/' + name + '/filters.' + name).toString();
 
-      var locals = { user: user, filters: { toupper: function(object) {
-        return object.toUpperCase();
-      }}};
+      var locals = { user: user,
+        filters: { toupper: function(object) {
+          return object.toUpperCase();
+        }}};
 
       cons[name].render(str, locals, function(err, html){
         if (err) return done(err);

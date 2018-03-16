@@ -1,7 +1,5 @@
-var cons = require('../../')
-  , fs = require('fs');
-
-var should = require('should');
+var cons = require('../../');
+var fs = require('fs');
 
 exports.test = function(name) {
   var user = { name: 'Tobi' };
@@ -33,7 +31,7 @@ exports.test = function(name) {
       });
     });
 
-    if (name == 'nunjucks') {
+    if (name === 'nunjucks') {
       it('should support extending views', function (done) {
         var str = fs.readFileSync('test/fixtures/' + name + '/layouts.' + name).toString();
 

@@ -1,10 +1,10 @@
 /*eslint-env node, mocha */
 /*eslint  quotes: [2, "single"] */
-var consolidate = require('../../'),
-    fs = require('fs');
+var consolidate = require('../../');
+var fs = require('fs');
 
-var readFile = fs.readFile,
-    readFileSync = fs.readFileSync;
+var readFile = fs.readFile;
+var readFileSync = fs.readFileSync;
 
 
 exports.test = function(name) {
@@ -82,9 +82,9 @@ exports.test = function(name) {
     it('should support rendering into a base template', function(done){
       var path = 'test/fixtures/' + name + '/user.' + name;
       var locals = {
-          user: user,
-          base: 'test/fixtures/' + name + '/base.html',
-          title: 'My Title'
+        user: user,
+        base: 'test/fixtures/' + name + '/base.html',
+        title: 'My Title'
       };
 
       cons[name](path, locals, function(err, html){

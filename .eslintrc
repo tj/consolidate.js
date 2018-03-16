@@ -1,4 +1,8 @@
 {
+  "env": {
+    "node": true,
+    "mocha": true
+  },
   "extends": "standard",
   "rules": {
     "padded-blocks": 0,

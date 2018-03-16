@@ -1,8 +1,9 @@
 
-var cons = require('../../')
-  , fs = require('fs')
-  , readFile = fs.readFile
-  , readFileSync = fs.readFileSync;
+var cons = require('../../');
+var join = require('path').join;
+var fs = require('fs');
+var readFile = fs.readFile;
+var readFileSync = fs.readFileSync;
 
 exports.test = function(name) {
   var user = { name: 'Tobi' };
@@ -13,7 +14,7 @@ exports.test = function(name) {
       fs.readFileSync = readFileSync;
     });
 
-    if (name == 'hogan' || name == 'mustache' || name == 'handlebars' || name == 'ractive') {
+    if (name === 'hogan' || name === 'mustache' || name === 'handlebars' || name === 'ractive') {
       it('should support partials', function(done){
         var path = 'test/fixtures/' + name + '/partials.' + name;
         var locals = { user: user, partials: { partial: 'user' } };
@@ -25,7 +26,7 @@ exports.test = function(name) {
       });
       it('should support absolute path partial', function(done){
         var path = 'test/fixtures/' + name + '/partials.' + name;
-        var locals = {user: user, partials: {partial: __dirname + '/../../test/fixtures/' + name + '/user' }};
+        var locals = {user: user, partials: {partial: join(__dirname, '/../../test/fixtures/' , name, '/user') }};
         cons[name](path, locals, function(err, html){
           if (err) return done(err);
           html.should.equal('<p>Tobi</p>');
