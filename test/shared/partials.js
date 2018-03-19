@@ -42,7 +42,7 @@ exports.test = function(name) {
           done();
         });
       });
-    } else if (name == 'underscore') {
+    } else if (name === 'underscore') {
       it('should support partials', function(done){
         var path = 'test/fixtures/' + name + '/partials.' + name;
         var locals = {
