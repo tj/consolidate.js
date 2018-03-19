@@ -1,12 +1,13 @@
 // npm install express
 
-var express = require('../../express')
-  , cons = require('../')
-  , app = express();
+var express = require('../../express');
+var cons = require('../');
+var app = express();
+var path = require('path');
 
 app.engine('html', cons.swig);
 app.set('view engine', 'html');
-app.set('views', __dirname + '/views');
+app.set('views', path.join(__dirname, 'views'));
 
 var users = [];
 users.push({ name: 'tobi' });

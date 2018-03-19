@@ -1,8 +1,8 @@
 
-var cons = require('../../')
-  , fs = require('fs')
-  , readFile = fs.readFile
-  , readFileSync = fs.readFileSync;
+var cons = require('../../');
+var fs = require('fs');
+var readFile = fs.readFile;
+var readFileSync = fs.readFileSync;
 
 exports.test = function(name) {
   var user = { name: 'Tobi' };
@@ -109,8 +109,8 @@ exports.test = function(name) {
     });
 
     it('should be exposed in the requires object', function(){
-      var should = require('should'),
-        requiredName = name;
+      var should = require('should');
+      var requiredName = name;
       should.exist(cons.requires[requiredName]);
     });
   });

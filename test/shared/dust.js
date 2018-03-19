@@ -22,7 +22,7 @@ exports.test = function(name) {
 
       if (name === 'dust') {
         var dust = require('dustjs-helpers');
-        dust.helpers.templateName = function(chunk, context, bodies, params) {
+        dust.helpers.templateName = function(chunk, context) {
           return chunk.write(context.getTemplateName());
         };
         cons.requires.dust = dust;
