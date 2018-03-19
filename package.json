@@ -2,12 +2,25 @@
   "name": "consolidate",
   "description": "Template engine consolidation library",
   "version": "0.15.0",
+  "homepage": "https://github.com/tj/consolidate.js",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "repository": "tj/consolidate.js",
+  "bugs": {
+    "url": "https://github.com/tj/consolidate.js/issues"
+  },
   "license": "MIT",
-  "main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/visionmedia/consolidate.js.git"
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha"
   },
   "dependencies": {
     "bluebird": "^3.1.1"
@@ -73,10 +86,5 @@
     "engine",
     "template",
     "view"
-  ],
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "mocha"
-  }
+  ]
 }
