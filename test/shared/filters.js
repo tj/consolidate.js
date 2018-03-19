@@ -4,7 +4,7 @@ var fs = require('fs');
 exports.test = function(name) {
   var user = { name: 'Tobi' };
 
-  describe(name, function(){
+  describe(name, function() {
 
     // Use case: return upper case string.
     it('should support filters', function(done) {
@@ -15,7 +15,7 @@ exports.test = function(name) {
           return object.toUpperCase();
         }}};
 
-      cons[name].render(str, locals, function(err, html){
+      cons[name].render(str, locals, function(err, html) {
         if (err) return done(err);
         html.should.eql('TOBI');
         return done();

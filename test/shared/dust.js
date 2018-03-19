@@ -7,7 +7,7 @@ var fs = require('fs');
 exports.test = function(name) {
   var user = { name: 'Tobi' };
 
-  describe(name, function(){
+  describe(name, function() {
     // Use case: return upper case string.
     it('should support fetching template name from the context', function(done) {
       var viewsDir = 'test/fixtures/' + name;
@@ -28,7 +28,7 @@ exports.test = function(name) {
         cons.requires.dust = dust;
       }
 
-      cons[name].render(str, locals, function(err, html){
+      cons[name].render(str, locals, function(err, html) {
         if (err) return done(err);
         html.should.eql('<p>Tobi</p>user_template_name');
         return done();

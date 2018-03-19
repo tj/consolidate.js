@@ -14,13 +14,13 @@ users.push({ name: 'tobi' });
 users.push({ name: 'loki' });
 users.push({ name: 'jane' });
 
-app.get('/', function(req, res){
+app.get('/', function(req, res) {
   res.render('index', {
     title: 'Consolidate.js'
   });
 });
 
-app.get('/users', function(req, res){
+app.get('/users', function(req, res) {
   res.render('users', {
     title: 'Users',
     users: users
