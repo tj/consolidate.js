@@ -1,3 +1,10 @@
+0.15.1 / 2018-03-19
+===================
+
+ * add support for underscore partials
+ * updating metadata and configurations
+ * lint and cleanup code and tests
+
 0.15.0 / 2017-11-01
 ===================
 
