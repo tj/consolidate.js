@@ -29,6 +29,8 @@
     "arc-templates": "^0.5.1",
     "atpl": ">=0.7.6",
     "babel-core": "^6.7.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.5.0",
     "bracket-template": "^1.1.4",
     "coffee-script": "^1.11.1",
@@ -69,8 +71,8 @@
     "react-dom": "^15.3.2",
     "should": "*",
     "slm": "^0.5.0",
-    "swig-templates": "^2.0.2",
     "swig": "^1.4.1",
+    "swig-templates": "^2.0.2",
     "teacup": "^2.0.0",
     "templayed": ">=0.2.3",
     "tinyliquid": "^0.2.30",
@@ -78,9 +80,10 @@
     "twig": "^0.10.0",
     "underscore": "^1.3.3",
     "vash": "^0.12.2",
+    "velocityjs": "^0.8.2",
+    "vue-pronto": "git://github.com:akhoury/vue-pronto.git#master",
     "walrus": "^0.10.1",
-    "whiskers": "^0.4.0",
-    "velocityjs": "^0.8.2"
+    "whiskers": "^0.4.0"
   },
   "keywords": [
     "engine",

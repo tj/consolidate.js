@@ -49,6 +49,7 @@
   - [vash](https://github.com/kirbysayshi/vash)
   - [walrus](https://github.com/jeremyruppel/walrus) [(website)](http://documentup.com/jeremyruppel/walrus/)
   - [whiskers](https://github.com/gsf/whiskers.js)
+  - [vue](https://github.com/vuejs/vue) [(website)](https://vuejs.org/)
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
