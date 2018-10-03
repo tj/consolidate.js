@@ -68,3 +68,6 @@ require('./shared').test('marko');
 require('./shared').test('bracket');
 require('./shared').test('teacup');
 require('./shared').test('velocityjs');
+require('./shared').test('squirrelly');
+require('./shared/partials').test('squirrelly');
+require('./shared/helpers').test('squirrelly');
