@@ -12,22 +12,22 @@
   | - | - | - |
   | [atpl](https://github.com/soywiz/atpl.js) | [`npm install atpl`](https://www.npmjs.com/package/atpl) | - |
   | [bracket](https://github.com/danlevan/bracket-template) | [`npm install bracket-template`](https://www.npmjs.com/package/bracket-template) | - |
-  | [doT.js](https://github.com/olado/doT) | [`npm install dot`](https://www.npmjs.com/package/dot) | [(website)](http://olado.github.io/doT/) |
+  | [dot](https://github.com/olado/doT) | [`npm install dot`](https://www.npmjs.com/package/dot) | [(website)](http://olado.github.io/doT/) |
   | ~~[dust](https://github.com/akdubya/dustjs)~~ | [`npm install dust`](https://www.npmjs.com/package/dust) | [(website)](http://akdubya.github.com/dustjs/) /  **(unmaintained)** |
   | [dustjs-linkedin](https://github.com/linkedin/dustjs) | [`npm install dustjs-helpers`](https://www.npmjs.com/package/dustjs-helpers) or<br>[`npm install dustjs-linkedin`](https://www.npmjs.com/package/dustjs-linkedin) | [(website)](http://linkedin.github.io/dustjs/) / **/!\\** Consolidate tries to use in this order :<br> `dust`, `dustjs-helpers` and `dustjs-linkedin`. |
   | ~~[eco](https://github.com/sstephenson/eco)~~ | [`npm install eco`](https://www.npmjs.com/package/eco) | **/!\ [Security issue](https://github.com/sstephenson/eco/pull/67)** |
   | [ect](https://github.com/baryshev/ect) | [`npm install ect`](https://www.npmjs.com/package/ect) | [(website)](http://ectjs.com/) |
   | [ejs](https://github.com/mde/ejs) | [`npm install ejs`](https://www.npmjs.com/package/ejs) | [(website)](http://ejs.co/) |
-  | [haml](https://github.com/visionmedia/haml.js) | [`npm install hamljs`](https://www.npmjs.com/package/hamljs) | - |
-  | [haml-coffee](https://github.com/netzpirat/haml-coffee) | [`npm install haml-coffee`](https://www.npmjs.com/package/haml-coffee) | - |
   | [hamlet](https://github.com/gregwebs/hamlet.js) | [`npm install hamlet`](https://www.npmjs.com/package/hamlet) | - |
+  | [hamljs](https://github.com/visionmedia/haml.js) | [`npm install hamljs`](https://www.npmjs.com/package/hamljs) | - |
+  | [haml-coffee](https://github.com/netzpirat/haml-coffee) | [`npm install haml-coffee`](https://www.npmjs.com/package/haml-coffee) | - |
   | [handlebars](https://github.com/wycats/handlebars.js/) | [`npm install atpl`](https://www.npmjs.com/package/atpl) | [(website)](http://handlebarsjs.com/) |
   | [hogan](https://github.com/twitter/hogan.js) | [`npm install hogan.js`](https://www.npmjs.com/package/hogan.js) | [(website)](http://twitter.github.com/hogan.js/) |
   | [htmling](https://github.com/codemix/htmling) | [`npm install htmling`](https://www.npmjs.com/package/htmling) | - |
   | ~~[jade](https://github.com/visionmedia/jade)~~ | [`npm install jade`](https://www.npmjs.com/package/jade) | [(website)](http://jade-lang.com/) / **(renamed `pug`)** |
   | [jazz](https://github.com/shinetech/jazz) | [`npm install jazz`](https://www.npmjs.com/package/jazz) | - |
   | ~~[jqtpl](https://github.com/kof/jqtpl)~~ | [`npm install jqtpl`](https://www.npmjs.com/package/jqtpl) | **(deprecated)** |
-  | [JUST](https://github.com/baryshev/just) | [`npm install just`](https://www.npmjs.com/package/just) | - |
+  | [just](https://github.com/baryshev/just) | [`npm install just`](https://www.npmjs.com/package/just) | - |
   | [liquid](https://github.com/leizongmin/tinyliquid) | [`npm install tinyliquid`](https://www.npmjs.com/package/tinyliquid) | [(website)](http://liquidmarkup.org/)<br>**will never add any new features** |
   | [liquor](https://github.com/chjj/liquor) | [`npm install liquor`](https://www.npmjs.com/package/liquor) | - |
   | [lodash](https://github.com/bestiejs/lodash) | [`npm install lodash`](https://www.npmjs.com/package/lodash) | [(website)](http://lodash.com/) |
@@ -37,7 +37,7 @@
   | [nunjucks](https://github.com/mozilla/nunjucks) | [`npm install nunjucks`](https://www.npmjs.com/package/nunjucks) | [(website)](https://mozilla.github.io/nunjucks) |
   | [plates](https://github.com/flatiron/plates) | [`npm install plates`](https://www.npmjs.com/package/plates) | - |
   | [pug](https://github.com/pugjs/pug) | [`npm install pug`](https://www.npmjs.com/package/pug) | [(website)](http://jade-lang.com/) / **(formerly jade)** |
-  | [QEJS](https://github.com/jepso/QEJS) | [`npm install qejs`](https://www.npmjs.com/package/qejs) | - |
+  | [qejs](https://github.com/jepso/QEJS) | [`npm install qejs`](https://www.npmjs.com/package/qejs) | - |
   | [ractive](https://github.com/ractivejs/ractive) | [`npm install ractive`](https://www.npmjs.com/package/ractive) | - |
   | [react](https://github.com/facebook/react) | [`npm install react`](https://www.npmjs.com/package/react) | - |
   | [slm](https://github.com/slm-lang/slm) | [`npm install slm`](https://www.npmjs.com/package/slm) | - |
