@@ -69,8 +69,9 @@
     "react-dom": "^15.3.2",
     "should": "*",
     "slm": "^0.5.0",
-    "swig-templates": "^2.0.2",
+    "squirrelly": "^5.0.1",
     "swig": "^1.4.1",
+    "swig-templates": "^2.0.2",
     "teacup": "^2.0.0",
     "templayed": ">=0.2.3",
     "tinyliquid": "^0.2.30",
@@ -78,9 +79,9 @@
     "twig": "^0.10.0",
     "underscore": "^1.3.3",
     "vash": "^0.12.2",
+    "velocityjs": "^0.8.2",
     "walrus": "^0.10.1",
-    "whiskers": "^0.4.0",
-    "velocityjs": "^0.8.2"
+    "whiskers": "^0.4.0"
   },
   "keywords": [
     "engine",

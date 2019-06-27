@@ -1,0 +1,2 @@
+{{myhelper(options.user.name)}}
+{{/myhelper}}

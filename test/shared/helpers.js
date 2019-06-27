@@ -1,6 +1,7 @@
 
 var cons = require('../../');
 var handlebars = require('handlebars');
+var Sqrl = require('squirrelly');
 var fs = require('fs');
 var readFile = fs.readFile;
 var readFileSync = fs.readFileSync;
@@ -31,6 +32,23 @@ exports.test = function(name) {
         cons[name].render(str, locals, function(err, html) {
           if (err) return done(err);
           html.should.equal('<strong>Tobi</strong>');
+          done();
+        });
+      });
+    } else if (name === 'squirrelly') {
+      user = { name: '<strong>Tobi</strong>' };
+
+      // Use case: return safe HTML that won’t be escaped in the final render.
+      it('should support helpers', function(done) {
+        var str = fs.readFileSync('test/fixtures/' + name + '/helpers.' + name).toString();
+        Sqrl.defineHelper('myhelper', function(args, content, blocks) {
+          return args[0].slice(1, -1);
+        });
+        var options = { user: user };
+
+        cons[name].render(str, options, function(err, html) {
+          if (err) return done(err);
+          html.should.equal('strong>Tobi</strong');
           done();
         });
       });
