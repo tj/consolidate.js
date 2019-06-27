@@ -37,6 +37,7 @@
   - [pug (formerly jade)](https://github.com/pugjs/pug) [(website)](http://jade-lang.com/)
   - [QEJS](https://github.com/jepso/QEJS)
   - [ractive](https://github.com/Rich-Harris/Ractive)
+  - [razor](https://github.com/kinogam/kino.razor)
   - [react](https://github.com/facebook/react)
   - [slm](https://github.com/slm-lang/slm)
   - [squirrelly](https://github.com/nebrelbug/squirrelly) [(website)](https://squirrelly.js.org)
