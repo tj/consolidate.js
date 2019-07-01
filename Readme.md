@@ -39,6 +39,7 @@
   | [pug](https://github.com/pugjs/pug) | [`npm install pug`](https://www.npmjs.com/package/pug) | [(website)](http://jade-lang.com/) / **(formerly jade)** |
   | [qejs](https://github.com/jepso/QEJS) | [`npm install qejs`](https://www.npmjs.com/package/qejs) | - |
   | [ractive](https://github.com/ractivejs/ractive) | [`npm install ractive`](https://www.npmjs.com/package/ractive) | - |
+  | [razor](https://github.com/kinogam/kino.razor) | [`npm install razor`](https://www.npmjs.com/package/razor) | - |
   | [react](https://github.com/facebook/react) | [`npm install react`](https://www.npmjs.com/package/react) | - |
   | [slm](https://github.com/slm-lang/slm) | [`npm install slm`](https://www.npmjs.com/package/slm) | - |
   | ~~[swig](https://github.com/paularmstrong/swig)~~ | [`npm install swig`](https://www.npmjs.com/package/swig) | **(unmaintained)** |
@@ -51,7 +52,6 @@
   | [vash](https://github.com/kirbysayshi/vash) | [`npm install vash`](https://www.npmjs.com/package/vash) | - |
   | [walrus](https://github.com/jeremyruppel/walrus) | [`npm install walrus`](https://www.npmjs.com/package/walrus) | [(website)](http://documentup.com/jeremyruppel/walrus/) |
   | [whiskers](https://github.com/gsf/whiskers.js) | [`npm install whiskers`](https://www.npmjs.com/package/whiskers) | - | 
-
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
