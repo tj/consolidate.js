@@ -49,6 +49,7 @@
   - [twig](https://github.com/justjohn/twig.js)
   - [underscore](https://github.com/documentcloud/underscore) [(website)](http://underscorejs.org/#template)
   - [vash](https://github.com/kirbysayshi/vash)
+  - [velocityjs](https://github.com/julianshapiro/velocity) [(website)](http://velocityjs.org/)
   - [walrus](https://github.com/jeremyruppel/walrus) [(website)](http://documentup.com/jeremyruppel/walrus/)
   - [whiskers](https://github.com/gsf/whiskers.js)
 
