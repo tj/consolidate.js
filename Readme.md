@@ -52,9 +52,9 @@ Some package has the same key name, consolidate will load them according to the 
 | [twig](https://github.com/justjohn/twig.js) | [`npm install twig`](https://www.npmjs.com/package/twig) | [(wiki)](https://github.com/twigjs/twig.js/wiki/Implementation-Notes) |
 | [underscore](https://github.com/documentcloud/underscore) | [`npm install underscore`](https://www.npmjs.com/package/underscore) | [(website)](http://underscorejs.org/#template) |
 | [vash](https://github.com/kirbysayshi/vash) | [`npm install vash`](https://www.npmjs.com/package/vash) | - |
+| [velocityjs](https://github.com/julianshapiro/velocity) | [BETA](https://www.npmjs.com/package/velocity) | [(website)](http://velocityjs.org/) |
 | [walrus](https://github.com/jeremyruppel/walrus) | [`npm install walrus`](https://www.npmjs.com/package/walrus) | [(website)](http://documentup.com/jeremyruppel/walrus/) |
 | [whiskers](https://github.com/gsf/whiskers.js) | [`npm install whiskers`](https://www.npmjs.com/package/whiskers) | - | 
-
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
