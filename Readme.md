@@ -5,6 +5,11 @@
 ## Installation
 
     $ npm install consolidate
+    
+## Supported Express versions
+
+  - [Espress 4.x](https://expressjs.com/fr/4x/api.html)
+  - [Express 3.x](https://expressjs.com/fr/3x/api.html)
 
 ## Supported template engines
 
@@ -57,7 +62,7 @@ __NOTE__: you must still install the engines you wish to use, add them to your p
 
 ## API
 
-  All templates supported by this library may be rendered using the signature `(path[, locals], callback)` as shown below, which happens to be the signature that Express 3.x supports so any of these engines may be used within Express.
+  All templates supported by this library may be rendered using the signature `(path[, locals], callback)` as shown below, which happens to be the signature that Express supports so any of these engines may be used within Express.
 
 __NOTE__: All this example code uses cons.swig for the swig template engine. Replace swig with whatever templating you are using. For example, use cons.hogan for hogan.js, cons.jade for jade, etc. `console.log(cons)` for the full list of identifiers.
 
@@ -111,9 +116,9 @@ cons.swig('views/page.html', { user: 'tobi' })
 
  To enable caching simply pass `{ cache: true }`. Engines _may_ use this option to cache things reading the file contents, compiled `Function`s etc. Engines which do _not_ support this may simply ignore it. All engines that consolidate.js implements I/O for will cache the file contents, ideal for production environments.
  When using consolidate directly: `cons.swig('views/page.html', { user: 'tobi', cache:true }, callback);`
- Using Express 3 or higher: `app.locals.cache = true` or set NODE_ENV to 'production' and Express will do this for you.
+ Using supported Express versions: `app.locals.cache = true` or set NODE_ENV to 'production' and Express will do this for you.
 
-## Express 3.x example
+## Express example
 
 ```js
 var express = require('express')
