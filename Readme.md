@@ -13,50 +13,53 @@
 
 ## Supported template engines
 
-  - [atpl](https://github.com/soywiz/atpl.js)
-  - [bracket](https://github.com/danlevan/bracket-template)
-  - [doT.js](https://github.com/olado/doT) [(website)](http://olado.github.io/doT/)
-  - [dust (unmaintained)](https://github.com/akdubya/dustjs) [(website)](http://akdubya.github.com/dustjs/)
-  - [dustjs-linkedin (maintained fork of dust)](https://github.com/linkedin/dustjs) [(website)](http://linkedin.github.io/dustjs/)
-  - [eco](https://github.com/sstephenson/eco)
-  - [ect](https://github.com/baryshev/ect) [(website)](http://ectjs.com/)
-  - [ejs](https://github.com/mde/ejs) [(website)](http://ejs.co/)
-  - [haml](https://github.com/visionmedia/haml.js)
-  - [haml-coffee](https://github.com/9elements/haml-coffee)
-  - [hamlet](https://github.com/gregwebs/hamlet.js)
-  - [handlebars](https://github.com/wycats/handlebars.js/) [(website)](http://handlebarsjs.com/)
-  - [hogan](https://github.com/twitter/hogan.js) [(website)](http://twitter.github.com/hogan.js/)
-  - [htmling](https://github.com/codemix/htmling)
-  - [jade](https://github.com/visionmedia/jade) [(website)](http://jade-lang.com/)
-  - [jazz](https://github.com/shinetech/jazz)
-  - [jqtpl](https://github.com/kof/jqtpl)
-  - [JUST](https://github.com/baryshev/just)
-  - [liquid](https://github.com/leizongmin/tinyliquid) [(website)](http://liquidmarkup.org/)
-  - [liquor](https://github.com/chjj/liquor)
-  - [lodash](https://github.com/bestiejs/lodash) [(website)](http://lodash.com/)
-  - [marko](https://github.com/marko-js/marko) [(website)](http://markojs.com)
-  - [mote](https://github.com/satchmorun/mote) [(website)](http://satchmorun.github.io/mote/)
-  - [mustache](https://github.com/janl/mustache.js)
-  - [nunjucks](https://github.com/mozilla/nunjucks) [(website)](https://mozilla.github.io/nunjucks)
-  - [plates](https://github.com/flatiron/plates)
-  - [pug (formerly jade)](https://github.com/pugjs/pug) [(website)](http://jade-lang.com/)
-  - [QEJS](https://github.com/jepso/QEJS)
-  - [ractive](https://github.com/Rich-Harris/Ractive)
-  - [razor](https://github.com/kinogam/kino.razor)
-  - [react](https://github.com/facebook/react)
-  - [slm](https://github.com/slm-lang/slm)
-  - [squirrelly](https://github.com/nebrelbug/squirrelly) [(website)](https://squirrelly.js.org)
-  - [swig (maintained fork)](https://github.com/node-swig/swig-templates)
-  - [swig (unmaintained)](https://github.com/paularmstrong/swig)
-  - [teacup](https://github.com/goodeggs/teacup)
-  - [templayed](http://archan937.github.com/templayed.js/)
-  - [toffee](https://github.com/malgorithms/toffee)
-  - [twig](https://github.com/justjohn/twig.js)
-  - [underscore](https://github.com/documentcloud/underscore) [(website)](http://underscorejs.org/#template)
-  - [vash](https://github.com/kirbysayshi/vash)
-  - [velocityjs](https://github.com/julianshapiro/velocity) [(website)](http://velocityjs.org/)
-  - [walrus](https://github.com/jeremyruppel/walrus) [(website)](http://documentup.com/jeremyruppel/walrus/)
-  - [whiskers](https://github.com/gsf/whiskers.js)
+Some package has the same key name, consolidate will load them according to the order number. By example for dust, consolidate will try to use in this order: `dust`, `dustjs-helpers` and `dustjs-linkedin`. If `dust` is installed, `dustjs-linkedin` will not be used by consolidate.
+
+| Name `cons.*` | Package Name / Order | Website / State |
+| - | - | - |
+| [atpl](https://github.com/soywiz/atpl.js) | [`npm install atpl`](https://www.npmjs.com/package/atpl) | - |
+| [bracket](https://github.com/danlevan/bracket-template) | [`npm install bracket-template`](https://www.npmjs.com/package/bracket-template) | - |
+| [dot](https://github.com/olado/doT) | [`npm install dot`](https://www.npmjs.com/package/dot) | [(website)](http://olado.github.io/doT/) |
+| ~~[dust](https://github.com/akdubya/dustjs)~~ | [`npm install dust`](https://www.npmjs.com/package/dust) (1) | [(website)](http://akdubya.github.com/dustjs/) /  **(unmaintained)**<br>See: dustjs-linkedin |
+| [dust](https://github.com/linkedin/dustjs) | [`npm install dustjs-helpers`](https://www.npmjs.com/package/dustjs-helpers) (2) or<br>[`npm install dustjs-linkedin`](https://www.npmjs.com/package/dustjs-linkedin) (3) | [(website)](http://linkedin.github.io/dustjs/) |
+| ~~[eco](https://github.com/sstephenson/eco)~~ | [`npm install eco`](https://www.npmjs.com/package/eco) | **/!\ [Security issue](https://github.com/sstephenson/eco/pull/67)** |
+| [ect](https://github.com/baryshev/ect) | [`npm install ect`](https://www.npmjs.com/package/ect) | [(website)](http://ectjs.com/) |
+| [ejs](https://github.com/mde/ejs) | [`npm install ejs`](https://www.npmjs.com/package/ejs) | [(website)](http://ejs.co/) |
+| [hamlet](https://github.com/gregwebs/hamlet.js) | [`npm install hamlet`](https://www.npmjs.com/package/hamlet) | - |
+| [hamljs](https://github.com/visionmedia/haml.js) | [`npm install hamljs`](https://www.npmjs.com/package/hamljs) | - |
+| [haml-coffee](https://github.com/netzpirat/haml-coffee) | [`npm install haml-coffee`](https://www.npmjs.com/package/haml-coffee) | - |
+| [handlebars](https://github.com/wycats/handlebars.js/) | [`npm install atpl`](https://www.npmjs.com/package/atpl) | [(website)](http://handlebarsjs.com/) |
+| [hogan](https://github.com/twitter/hogan.js) | [`npm install hogan.js`](https://www.npmjs.com/package/hogan.js) | [(website)](http://twitter.github.com/hogan.js/) |
+| [htmling](https://github.com/codemix/htmling) | [`npm install htmling`](https://www.npmjs.com/package/htmling) | - |
+| ~~[jade](https://github.com/visionmedia/jade)~~ | [`npm install jade`](https://www.npmjs.com/package/jade) | [(website)](http://jade-lang.com/) / **(renamed `pug`)** |
+| [jazz](https://github.com/shinetech/jazz) | [`npm install jazz`](https://www.npmjs.com/package/jazz) | - |
+| ~~[jqtpl](https://github.com/kof/jqtpl)~~ | [`npm install jqtpl`](https://www.npmjs.com/package/jqtpl) | **(deprecated)** |
+| [just](https://github.com/baryshev/just) | [`npm install just`](https://www.npmjs.com/package/just) | - |
+| [liquid](https://github.com/leizongmin/tinyliquid) | [`npm install tinyliquid`](https://www.npmjs.com/package/tinyliquid) | [(website)](http://liquidmarkup.org/)<br>**will never add any new features** |
+| [liquor](https://github.com/chjj/liquor) | [`npm install liquor`](https://www.npmjs.com/package/liquor) | - |
+| [lodash](https://github.com/bestiejs/lodash) | [`npm install lodash`](https://www.npmjs.com/package/lodash) | [(website)](http://lodash.com/) |
+| [marko](https://github.com/marko-js/marko) | [`npm install marko`](https://www.npmjs.com/package/marko) | [(website)](http://markojs.com) |
+| [mote](https://github.com/satchmorun/mote) | [`npm install mote`](https://www.npmjs.com/package/mote) | [(website)](http://satchmorun.github.io/mote/) |
+| [mustache](https://github.com/janl/mustache.js) | [`npm install mustache`](https://www.npmjs.com/package/mustache) | - |
+| [nunjucks](https://github.com/mozilla/nunjucks) | [`npm install nunjucks`](https://www.npmjs.com/package/nunjucks) | [(website)](https://mozilla.github.io/nunjucks) |
+| [plates](https://github.com/flatiron/plates) | [`npm install plates`](https://www.npmjs.com/package/plates) | - |
+| [pug](https://github.com/pugjs/pug) | [`npm install pug`](https://www.npmjs.com/package/pug) | [(website)](http://jade-lang.com/) / **(formerly jade)** |
+| [qejs](https://github.com/jepso/QEJS) | [`npm install qejs`](https://www.npmjs.com/package/qejs) | - |
+| [ractive](https://github.com/ractivejs/ractive) | [`npm install ractive`](https://www.npmjs.com/package/ractive) | - |
+| [razor](https://github.com/kinogam/kino.razor) | [`npm install razor`](https://www.npmjs.com/package/razor) | - |
+| [react](https://github.com/facebook/react) | [`npm install react`](https://www.npmjs.com/package/react) | - |
+| [slm](https://github.com/slm-lang/slm) | [`npm install slm`](https://www.npmjs.com/package/slm) | - |
+| ~~[swig](https://github.com/paularmstrong/swig)~~ | [`npm install swig`](https://www.npmjs.com/package/swig) (1) | **(unmaintained)**<br>See: swig-templates |
+| [swig](https://github.com/node-swig/swig-templates) | [`npm install swig-templates`](https://www.npmjs.com/package/swig-templates) (2) | - |
+| [teacup](https://github.com/goodeggs/teacup) | [`npm install teacup`](https://www.npmjs.com/package/teacup) | - |
+| [templayed](https://github.com/archan937/templayed.js/) | [`npm install templayed`](https://www.npmjs.com/package/templayed) | [(website)](http://archan937.github.com/templayed.js/)  |
+| [toffee](https://github.com/malgorithms/toffee) | [`npm install toffee`](https://www.npmjs.com/package/toffee) | - |
+| [twig](https://github.com/justjohn/twig.js) | [`npm install twig`](https://www.npmjs.com/package/twig) | [(wiki)](https://github.com/twigjs/twig.js/wiki/Implementation-Notes) |
+| [underscore](https://github.com/documentcloud/underscore) | [`npm install underscore`](https://www.npmjs.com/package/underscore) | [(website)](http://underscorejs.org/#template) |
+| [vash](https://github.com/kirbysayshi/vash) | [`npm install vash`](https://www.npmjs.com/package/vash) | - |
+| [velocityjs](https://github.com/julianshapiro/velocity) | [BETA](https://www.npmjs.com/package/velocity-animate) | [(website)](http://velocityjs.org/) |
+| [walrus](https://github.com/jeremyruppel/walrus) | [`npm install walrus`](https://www.npmjs.com/package/walrus) | [(website)](http://documentup.com/jeremyruppel/walrus/) |
+| [whiskers](https://github.com/gsf/whiskers.js) | [`npm install whiskers`](https://www.npmjs.com/package/whiskers) | - | 
 
 __NOTE__: you must still install the engines you wish to use, add them to your package.json dependencies.
 
