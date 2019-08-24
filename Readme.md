@@ -8,7 +8,7 @@
     
 ## Supported Express versions
 
-  - [Espress 4.x](https://expressjs.com/fr/4x/api.html)
+  - [Express 4.x](https://expressjs.com/fr/4x/api.html)
   - [Express 3.x](https://expressjs.com/fr/3x/api.html)
 
 ## Supported template engines
@@ -28,7 +28,7 @@ Some package has the same key name, consolidate will load them according to the 
 | [hamlet](https://github.com/gregwebs/hamlet.js) | [`npm install hamlet`](https://www.npmjs.com/package/hamlet) | - |
 | [hamljs](https://github.com/visionmedia/haml.js) | [`npm install hamljs`](https://www.npmjs.com/package/hamljs) | - |
 | [haml-coffee](https://github.com/netzpirat/haml-coffee) | [`npm install haml-coffee`](https://www.npmjs.com/package/haml-coffee) | - |
-| [handlebars](https://github.com/wycats/handlebars.js/) | [`npm install atpl`](https://www.npmjs.com/package/atpl) | [(website)](http://handlebarsjs.com/) |
+| [handlebars](https://github.com/wycats/handlebars.js/) | [`npm install handlebars`](https://www.npmjs.com/package/handlebars) | [(website)](http://handlebarsjs.com/) |
 | [hogan](https://github.com/twitter/hogan.js) | [`npm install hogan.js`](https://www.npmjs.com/package/hogan.js) | [(website)](http://twitter.github.com/hogan.js/) |
 | [htmling](https://github.com/codemix/htmling) | [`npm install htmling`](https://www.npmjs.com/package/htmling) | - |
 | ~~[jade](https://github.com/visionmedia/jade)~~ | [`npm install jade`](https://www.npmjs.com/package/jade) | [(website)](http://jade-lang.com/) / **(renamed `pug`)** |
