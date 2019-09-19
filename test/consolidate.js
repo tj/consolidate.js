@@ -73,5 +73,6 @@ require('./shared').test('razor');
 require('./shared').test('squirrelly');
 require('./shared/partials').test('squirrelly');
 require('./shared/helpers').test('squirrelly');
-if(semver.satisfies(process.version, '>=6.0.0'))
-    require('./shared').test('twing');
+if (semver.satisfies(process.version, '>=6.0.0')) {
+  require('./shared').test('twing');
+}
