@@ -1,4 +1,5 @@
 var cons = require('../');
+var semver = require('semver');
 /*eslint-env node*/
 /*eslint  quotes: [2, "single"] */
 require('./shared').test('jade');
@@ -72,4 +73,5 @@ require('./shared').test('razor');
 require('./shared').test('squirrelly');
 require('./shared/partials').test('squirrelly');
 require('./shared/helpers').test('squirrelly');
-require('./shared').test('twing');
+if(semver.satisfies(process.version, '>=6.0.0'))
+    require('./shared').test('twing');

@@ -23,7 +23,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "bluebird": "^3.1.1"
+    "bluebird": "^3.1.1",
+    "semver": "^6.3.0"
   },
   "devDependencies": {
     "arc-templates": "^0.5.1",
