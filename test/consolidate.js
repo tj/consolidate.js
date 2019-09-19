@@ -72,3 +72,4 @@ require('./shared').test('razor');
 require('./shared').test('squirrelly');
 require('./shared/partials').test('squirrelly');
 require('./shared/helpers').test('squirrelly');
+require('./shared').test('twing');
