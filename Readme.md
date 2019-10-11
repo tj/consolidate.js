@@ -49,6 +49,7 @@ Some package has the same key name, consolidate will load them according to the 
 | [razor](https://github.com/kinogam/kino.razor) | [`npm install razor`](https://www.npmjs.com/package/razor) | - |
 | [react](https://github.com/facebook/react) | [`npm install react`](https://www.npmjs.com/package/react) | - |
 | [slm](https://github.com/slm-lang/slm) | [`npm install slm`](https://www.npmjs.com/package/slm) | - |
+| [squirrelly](https://github.com/squirrellyjs/squirrelly) | [`npm install squirrelly`](https://www.npmjs.com/package/squirrelly) | [(website)](https://squirrelly.js.org) |
 | ~~[swig](https://github.com/paularmstrong/swig)~~ | [`npm install swig`](https://www.npmjs.com/package/swig) (1) | **(unmaintained)**<br>See: swig-templates |
 | [swig](https://github.com/node-swig/swig-templates) | [`npm install swig-templates`](https://www.npmjs.com/package/swig-templates) (2) | - |
 | [teacup](https://github.com/goodeggs/teacup) | [`npm install teacup`](https://www.npmjs.com/package/teacup) | - |
