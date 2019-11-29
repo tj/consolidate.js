@@ -56,6 +56,7 @@ Some package has the same key name, consolidate will load them according to the 
 | [templayed](https://github.com/archan937/templayed.js/) | [`npm install templayed`](https://www.npmjs.com/package/templayed) | [(website)](http://archan937.github.com/templayed.js/)  |
 | [toffee](https://github.com/malgorithms/toffee) | [`npm install toffee`](https://www.npmjs.com/package/toffee) | - |
 | [twig](https://github.com/justjohn/twig.js) | [`npm install twig`](https://www.npmjs.com/package/twig) | [(wiki)](https://github.com/twigjs/twig.js/wiki/Implementation-Notes) |
+| [twing](https://github.com/NightlyCommit/twing) | [`npm install twing`](https://www.npmjs.com/package/twing) | [(website)](https://nightlycommit.github.io/twing/) |
 | [underscore](https://github.com/documentcloud/underscore) | [`npm install underscore`](https://www.npmjs.com/package/underscore) | [(website)](http://underscorejs.org/#template) |
 | [vash](https://github.com/kirbysayshi/vash) | [`npm install vash`](https://www.npmjs.com/package/vash) | - |
 | [velocityjs](https://github.com/julianshapiro/velocity) | [BETA](https://www.npmjs.com/package/velocity-animate) | [(website)](http://velocityjs.org/) |
